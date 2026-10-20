@@ -1,0 +1,458 @@
+[TITLE]
+Velachery Ward 175 Synthetic Drainage Network
+
+[OPTIONS]
+FLOW_UNITS           CMS
+INFILTRATION         HORTON
+FLOW_ROUTING         DYNWAVE
+START_DATE           01/01/2026
+START_TIME           00:00:00
+REPORT_START_DATE    01/01/2026
+REPORT_START_TIME    00:00:00
+END_DATE             01/02/2026
+END_TIME             00:00:00
+REPORT_STEP          00:05:00
+WET_STEP             00:05:00
+DRY_STEP             00:05:00
+ROUTING_STEP         00:01:00
+
+[REPORT]
+INPUT      YES
+CONTROLS   YES
+NODES      ALL
+LINKS      ALL
+
+[JUNCTIONS]
+;;Name           Elevation  MaxDepth
+A5             4.916      2.000     
+A12A           4.566      2.000     
+C41            4.355      2.000     
+C16            4.189      2.000     
+B12            4.187      2.000     
+A9             4.157      2.000     
+C5             4.151      2.000     
+C39            4.132      2.000     
+A12            4.127      2.000     
+C46            4.107      2.000     
+B9             4.080      2.000     
+B13            4.057      2.000     
+B10            4.049      2.000     
+B7             4.021      2.000     
+C18            4.001      2.000     
+A8             3.993      2.000     
+C50            3.985      2.000     
+B8             3.981      2.000     
+C55            3.965      2.000     
+C29            3.956      2.000     
+C22            3.954      2.000     
+A6             3.948      2.000     
+C30            3.946      2.000     
+B17            3.943      2.000     
+C57            3.941      2.000     
+A10            3.940      2.000     
+A15            3.940      2.000     
+C38            3.934      2.000     
+C14            3.933      2.000     
+C42            3.931      2.000     
+A13            3.921      2.000     
+A3             3.920      2.000     
+C27            3.908      2.000     
+C48            3.903      2.000     
+C20            3.900      2.000     
+C21            3.899      2.000     
+C34            3.895      2.000     
+C52            3.889      2.000     
+B16            3.857      2.000     
+A7             3.847      2.000     
+C17            3.839      2.000     
+B11            3.824      2.000     
+C6             3.816      2.000     
+C62            3.812      2.000     
+C24            3.811      2.000     
+C4             3.801      2.000     
+A2             3.799      2.000     
+C43            3.789      2.000     
+C15            3.783      2.000     
+C12            3.782      2.000     
+C51            3.776      2.000     
+A11            3.759      2.000     
+C3             3.756      2.000     
+B6             3.729      2.000     
+C19            3.722      2.000     
+C31            3.721      2.000     
+C58            3.705      2.000     
+E28            3.703      2.000     
+C59            3.698      2.000     
+C32            3.692      2.000     
+C35            3.683      2.000     
+C9             3.682      2.000     
+C11            3.674      2.000     
+C37            3.641      2.000     
+E30            3.637      2.000     
+C56            3.636      2.000     
+B14            3.619      2.000     
+C60            3.610      2.000     
+D15            3.605      2.000     
+A1_OL          3.589      2.000     
+C54            3.581      2.000     
+D17            3.575      2.000     
+C61            3.560      2.000     
+C13            3.552      2.000     
+B5             3.549      2.000     
+C25            3.547      2.000     
+A4             3.543      2.000     
+C49            3.534      2.000     
+C33            3.523      2.000     
+B23            3.522      2.000     
+C23            3.509      2.000     
+C64            3.502      2.000     
+B22            3.463      2.000     
+B20            3.462      2.000     
+B15            3.452      2.000     
+C10            3.445      2.000     
+D19            3.429      2.000     
+B4             3.422      2.000     
+C63            3.409      2.000     
+D16            3.390      2.000     
+C8             3.380      2.000     
+C53            3.378      2.000     
+B2             3.376      2.000     
+C47            3.373      2.000     
+B21            3.363      2.000     
+D22            3.363      2.000     
+C7             3.352      2.000     
+C28            3.337      2.000     
+A14            3.316      2.000     
+E2             3.297      2.000     
+C2             3.281      2.000     
+D10            3.280      2.000     
+B18            3.274      2.000     
+E11            3.261      2.000     
+E20            3.261      2.000     
+D21            3.256      2.000     
+C36            3.233      2.000     
+D20            3.229      2.000     
+D14            3.227      2.000     
+D6             3.216      2.000     
+D7             3.208      2.000     
+D12            3.207      2.000     
+E6             3.187      2.000     
+B24            3.176      2.000     
+D18            3.171      2.000     
+D13            3.149      2.000     
+B1_OL          3.132      2.000     
+B19            3.129      2.000     
+E5             3.094      2.000     
+E4             3.084      2.000     
+E29            3.080      2.000     
+E3             3.025      2.000     
+D8             3.021      2.000     
+E10            3.018      2.000     
+D5             2.981      2.000     
+D9             2.957      2.000     
+D4             2.837      2.000     
+D11            2.832      2.000     
+F7             2.795      2.000     
+E7             2.750      2.000     
+D3             2.656      2.000     
+E1_OL          2.629      2.000     
+D2             2.565      2.000     
+D1_OL          2.544      2.000     
+
+[OUTFALLS]
+;;Name           Elevation  Type
+C1_OL          1.649      FREE
+
+[ORIFICES]
+;;Name           From Node        To Node          Type         Offset     Qcoeff     Gated
+Gate_1         A5               A12A             SIDE         0          0.65       YES
+Gate_2         A12A             C41              SIDE         0          0.65       YES
+Gate_3         C41              C16              SIDE         0          0.65       YES
+Gate_4         C16              B12              SIDE         0          0.65       YES
+Gate_5         B12              A9               SIDE         0          0.65       YES
+Gate_6         A9               C5               SIDE         0          0.65       YES
+Gate_7         C5               C39              SIDE         0          0.65       YES
+
+[CONDUITS]
+;;Name           From Node        To Node          Length     Roughness  InOffset   OutOffset
+Pipe_8         C39              A12              1056.73    0.015      0          0
+Pipe_9         A12              C46              28.06      0.015      0          0
+Pipe_10        C46              B9               25.18      0.015      0          0
+Pipe_11        B9               B13              86.61      0.015      0          0
+Pipe_12        B13              B10              922.75     0.015      0          0
+Pipe_13        B10              B7               686.22     0.015      0          0
+Pipe_14        B7               C18              397.01     0.015      0          0
+Pipe_15        C18              A8               1654.60    0.015      0          0
+Pipe_16        A8               C50              153.36     0.015      0          0
+Pipe_17        C50              B8               180.06     0.015      0          0
+Pipe_18        B8               C55              55.87      0.015      0          0
+Pipe_19        C55              C29              76.06      0.015      0          0
+Pipe_20        C29              C22              43.45      0.015      0          0
+Pipe_21        C22              A6               2000.00    0.015      0          0
+Pipe_22        A6               C30              10.00      0.015      0          0
+Pipe_23        C30              B17              54.13      0.015      0          0
+Pipe_24        B17              C57              195.36     0.015      0          0
+Pipe_25        C57              A10              19.90      0.015      0          0
+Pipe_26        A10              A15              156.94     0.015      0          0
+Pipe_27        A15              C38              11.04      0.015      0          0
+Pipe_28        C38              C14              35.26      0.015      0          0
+Pipe_29        C14              C42              11.08      0.015      0          0
+Pipe_30        C42              A13              147.36     0.015      0          0
+Pipe_31        A13              A3               11.06      0.015      0          0
+Pipe_32        A3               C27              24.30      0.015      0          0
+Pipe_33        C27              C48              13.89      0.015      0          0
+Pipe_34        C48              C20              96.68      0.015      0          0
+Pipe_35        C20              C21              11.13      0.015      0          0
+Pipe_36        C21              C34              37.15      0.015      0          0
+Pipe_37        C34              C52              10.00      0.015      0          0
+Pipe_38        C52              B16              10.00      0.015      0          0
+Pipe_39        B16              A7               38.14      0.015      0          0
+Pipe_40        A7               C17              246.47     0.015      0          0
+Pipe_41        C17              B11              2000.00    0.015      0          0
+Pipe_42        B11              C6               15.71      0.015      0          0
+Pipe_43        C6               C62              325.33     0.015      0          0
+Pipe_44        C62              C24              69.04      0.015      0          0
+Pipe_45        C24              C4               386.38     0.015      0          0
+Pipe_46        C4               A2               41.17      0.015      0          0
+Pipe_47        A2               C43              10.00      0.015      0          0
+Pipe_48        C43              C15              135.64     0.015      0          0
+Pipe_49        C15              C12              10.00      0.015      0          0
+Pipe_50        C12              C51              387.97     0.015      0          0
+Pipe_51        C51              A11              137.12     0.015      0          0
+Pipe_52        A11              C3               10.00      0.015      0          0
+Pipe_53        C3               B6               2000.00    0.015      0          0
+Pipe_54        B6               C19              10.96      0.015      0          0
+Pipe_55        C19              C31              69.99      0.015      0          0
+Pipe_56        C31              C58              492.26     0.015      0          0
+Pipe_57        C58              E28              89.00      0.015      0          0
+Pipe_58        E28              C59              862.20     0.015      0          0
+Pipe_59        C59              C32              34.06      0.015      0          0
+Pipe_60        C32              C35              536.88     0.015      0          0
+Pipe_61        C35              C9               1511.55    0.015      0          0
+Pipe_62        C9               C11              1056.73    0.015      0          0
+Pipe_63        C11              C37              28.06      0.015      0          0
+Pipe_64        C37              E30              25.18      0.015      0          0
+Pipe_65        E30              C56              86.61      0.015      0          0
+Pipe_66        C56              B14              922.75     0.015      0          0
+Pipe_67        B14              C60              686.22     0.015      0          0
+Pipe_68        C60              D15              397.01     0.015      0          0
+Pipe_69        D15              A1_OL            1654.60    0.015      0          0
+Pipe_70        A1_OL            C54              153.36     0.015      0          0
+Pipe_71        C54              D17              180.06     0.015      0          0
+Pipe_72        D17              C61              55.87      0.015      0          0
+Pipe_73        C61              C13              76.06      0.015      0          0
+Pipe_74        C13              B5               43.45      0.015      0          0
+Pipe_75        B5               C25              2000.00    0.015      0          0
+Pipe_76        C25              A4               10.00      0.015      0          0
+Pipe_77        A4               C49              54.13      0.015      0          0
+Pipe_78        C49              C33              195.36     0.015      0          0
+Pipe_79        C33              B23              19.90      0.015      0          0
+Pipe_80        B23              C23              156.94     0.015      0          0
+Pipe_81        C23              C64              11.04      0.015      0          0
+Pipe_82        C64              B22              35.26      0.015      0          0
+Pipe_83        B22              B20              11.08      0.015      0          0
+Pipe_84        B20              B15              147.36     0.015      0          0
+Pipe_85        B15              C10              11.06      0.015      0          0
+Pipe_86        C10              D19              24.30      0.015      0          0
+Pipe_87        D19              B4               13.89      0.015      0          0
+Pipe_88        B4               C63              96.68      0.015      0          0
+Pipe_89        C63              D16              11.13      0.015      0          0
+Pipe_90        D16              C8               37.15      0.015      0          0
+Pipe_91        C8               C53              10.00      0.015      0          0
+Pipe_92        C53              B2               10.00      0.015      0          0
+Pipe_93        B2               C47              38.14      0.015      0          0
+Pipe_94        C47              B21              246.47     0.015      0          0
+Pipe_95        B21              D22              2000.00    0.015      0          0
+Pipe_96        D22              C7               15.71      0.015      0          0
+Pipe_97        C7               C28              325.33     0.015      0          0
+Pipe_98        C28              A14              69.04      0.015      0          0
+Pipe_99        A14              E2               386.38     0.015      0          0
+Pipe_100       E2               C2               41.17      0.015      0          0
+Pipe_101       C2               D10              10.00      0.015      0          0
+Pipe_102       D10              B18              135.64     0.015      0          0
+Pipe_103       B18              E11              10.00      0.015      0          0
+Pipe_104       E11              E20              387.97     0.015      0          0
+Pipe_105       E20              D21              137.12     0.015      0          0
+Pipe_106       D21              C36              10.00      0.015      0          0
+Pipe_107       C36              D20              2000.00    0.015      0          0
+Pipe_108       D20              D14              10.96      0.015      0          0
+Pipe_109       D14              D6               69.99      0.015      0          0
+Pipe_110       D6               D7               492.26     0.015      0          0
+Pipe_111       D7               D12              89.00      0.015      0          0
+Pipe_112       D12              E6               862.20     0.015      0          0
+Pipe_113       E6               B24              34.06      0.015      0          0
+Pipe_114       B24              D18              536.88     0.015      0          0
+Pipe_115       D18              D13              1511.55    0.015      0          0
+Pipe_116       D13              B1_OL            1056.73    0.015      0          0
+Pipe_117       B1_OL            B19              28.06      0.015      0          0
+Pipe_118       B19              E5               25.18      0.015      0          0
+Pipe_119       E5               E4               86.61      0.015      0          0
+Pipe_120       E4               E29              922.75     0.015      0          0
+Pipe_121       E29              E3               686.22     0.015      0          0
+Pipe_122       E3               D8               397.01     0.015      0          0
+Pipe_123       D8               E10              1654.60    0.015      0          0
+Pipe_124       E10              D5               153.36     0.015      0          0
+Pipe_125       D5               D9               180.06     0.015      0          0
+Pipe_126       D9               D4               55.87      0.015      0          0
+Pipe_127       D4               D11              76.06      0.015      0          0
+Pipe_128       D11              F7               43.45      0.015      0          0
+Pipe_129       F7               E7               2000.00    0.015      0          0
+Pipe_130       E7               D3               10.00      0.015      0          0
+Pipe_131       D3               E1_OL            54.13      0.015      0          0
+Pipe_132       E1_OL            D2               195.36     0.015      0          0
+Pipe_133       D2               D1_OL            19.90      0.015      0          0
+Pipe_134       D1_OL            C1_OL            156.94     0.015      0          0
+
+[XSECTIONS]
+;;Link           Shape        Geom1      Geom2      Geom3      Geom4      Barrels
+Gate_1         CIRCULAR     1.0        0          0          0          1
+Gate_2         CIRCULAR     1.0        0          0          0          1
+Gate_3         CIRCULAR     1.0        0          0          0          1
+Gate_4         CIRCULAR     1.0        0          0          0          1
+Gate_5         CIRCULAR     1.0        0          0          0          1
+Gate_6         CIRCULAR     1.0        0          0          0          1
+Gate_7         CIRCULAR     1.0        0          0          0          1
+Pipe_8         CIRCULAR     1.0        0          0          0          1
+Pipe_9         CIRCULAR     1.0        0          0          0          1
+Pipe_10        CIRCULAR     1.0        0          0          0          1
+Pipe_11        CIRCULAR     1.0        0          0          0          1
+Pipe_12        CIRCULAR     1.0        0          0          0          1
+Pipe_13        CIRCULAR     1.0        0          0          0          1
+Pipe_14        CIRCULAR     1.0        0          0          0          1
+Pipe_15        CIRCULAR     1.0        0          0          0          1
+Pipe_16        CIRCULAR     1.0        0          0          0          1
+Pipe_17        CIRCULAR     1.0        0          0          0          1
+Pipe_18        CIRCULAR     1.0        0          0          0          1
+Pipe_19        CIRCULAR     1.0        0          0          0          1
+Pipe_20        CIRCULAR     1.0        0          0          0          1
+Pipe_21        CIRCULAR     1.0        0          0          0          1
+Pipe_22        CIRCULAR     1.0        0          0          0          1
+Pipe_23        CIRCULAR     1.0        0          0          0          1
+Pipe_24        CIRCULAR     1.0        0          0          0          1
+Pipe_25        CIRCULAR     1.0        0          0          0          1
+Pipe_26        CIRCULAR     1.0        0          0          0          1
+Pipe_27        CIRCULAR     1.0        0          0          0          1
+Pipe_28        CIRCULAR     1.0        0          0          0          1
+Pipe_29        CIRCULAR     1.0        0          0          0          1
+Pipe_30        CIRCULAR     1.0        0          0          0          1
+Pipe_31        CIRCULAR     1.0        0          0          0          1
+Pipe_32        CIRCULAR     1.0        0          0          0          1
+Pipe_33        CIRCULAR     1.0        0          0          0          1
+Pipe_34        CIRCULAR     1.0        0          0          0          1
+Pipe_35        CIRCULAR     1.0        0          0          0          1
+Pipe_36        CIRCULAR     1.0        0          0          0          1
+Pipe_37        CIRCULAR     1.0        0          0          0          1
+Pipe_38        CIRCULAR     1.0        0          0          0          1
+Pipe_39        CIRCULAR     1.0        0          0          0          1
+Pipe_40        CIRCULAR     1.0        0          0          0          1
+Pipe_41        CIRCULAR     1.0        0          0          0          1
+Pipe_42        CIRCULAR     1.0        0          0          0          1
+Pipe_43        CIRCULAR     1.0        0          0          0          1
+Pipe_44        CIRCULAR     1.0        0          0          0          1
+Pipe_45        CIRCULAR     1.0        0          0          0          1
+Pipe_46        CIRCULAR     1.0        0          0          0          1
+Pipe_47        CIRCULAR     1.0        0          0          0          1
+Pipe_48        CIRCULAR     1.0        0          0          0          1
+Pipe_49        CIRCULAR     1.0        0          0          0          1
+Pipe_50        CIRCULAR     1.0        0          0          0          1
+Pipe_51        CIRCULAR     1.0        0          0          0          1
+Pipe_52        CIRCULAR     1.0        0          0          0          1
+Pipe_53        CIRCULAR     1.0        0          0          0          1
+Pipe_54        CIRCULAR     1.0        0          0          0          1
+Pipe_55        CIRCULAR     1.0        0          0          0          1
+Pipe_56        CIRCULAR     1.0        0          0          0          1
+Pipe_57        CIRCULAR     1.0        0          0          0          1
+Pipe_58        CIRCULAR     1.0        0          0          0          1
+Pipe_59        CIRCULAR     1.0        0          0          0          1
+Pipe_60        CIRCULAR     1.0        0          0          0          1
+Pipe_61        CIRCULAR     1.0        0          0          0          1
+Pipe_62        CIRCULAR     1.0        0          0          0          1
+Pipe_63        CIRCULAR     1.0        0          0          0          1
+Pipe_64        CIRCULAR     1.0        0          0          0          1
+Pipe_65        CIRCULAR     1.0        0          0          0          1
+Pipe_66        CIRCULAR     1.0        0          0          0          1
+Pipe_67        CIRCULAR     1.0        0          0          0          1
+Pipe_68        CIRCULAR     1.0        0          0          0          1
+Pipe_69        CIRCULAR     1.0        0          0          0          1
+Pipe_70        CIRCULAR     1.0        0          0          0          1
+Pipe_71        CIRCULAR     1.0        0          0          0          1
+Pipe_72        CIRCULAR     1.0        0          0          0          1
+Pipe_73        CIRCULAR     1.0        0          0          0          1
+Pipe_74        CIRCULAR     1.0        0          0          0          1
+Pipe_75        CIRCULAR     1.0        0          0          0          1
+Pipe_76        CIRCULAR     1.0        0          0          0          1
+Pipe_77        CIRCULAR     1.0        0          0          0          1
+Pipe_78        CIRCULAR     1.0        0          0          0          1
+Pipe_79        CIRCULAR     1.0        0          0          0          1
+Pipe_80        CIRCULAR     1.0        0          0          0          1
+Pipe_81        CIRCULAR     1.0        0          0          0          1
+Pipe_82        CIRCULAR     1.0        0          0          0          1
+Pipe_83        CIRCULAR     1.0        0          0          0          1
+Pipe_84        CIRCULAR     1.0        0          0          0          1
+Pipe_85        CIRCULAR     1.0        0          0          0          1
+Pipe_86        CIRCULAR     1.0        0          0          0          1
+Pipe_87        CIRCULAR     1.0        0          0          0          1
+Pipe_88        CIRCULAR     1.0        0          0          0          1
+Pipe_89        CIRCULAR     1.0        0          0          0          1
+Pipe_90        CIRCULAR     1.0        0          0          0          1
+Pipe_91        CIRCULAR     1.0        0          0          0          1
+Pipe_92        CIRCULAR     1.0        0          0          0          1
+Pipe_93        CIRCULAR     1.0        0          0          0          1
+Pipe_94        CIRCULAR     1.0        0          0          0          1
+Pipe_95        CIRCULAR     1.0        0          0          0          1
+Pipe_96        CIRCULAR     1.0        0          0          0          1
+Pipe_97        CIRCULAR     1.0        0          0          0          1
+Pipe_98        CIRCULAR     1.0        0          0          0          1
+Pipe_99        CIRCULAR     1.0        0          0          0          1
+Pipe_100       CIRCULAR     1.0        0          0          0          1
+Pipe_101       CIRCULAR     1.0        0          0          0          1
+Pipe_102       CIRCULAR     1.0        0          0          0          1
+Pipe_103       CIRCULAR     1.0        0          0          0          1
+Pipe_104       CIRCULAR     1.0        0          0          0          1
+Pipe_105       CIRCULAR     1.0        0          0          0          1
+Pipe_106       CIRCULAR     1.0        0          0          0          1
+Pipe_107       CIRCULAR     1.0        0          0          0          1
+Pipe_108       CIRCULAR     1.0        0          0          0          1
+Pipe_109       CIRCULAR     1.0        0          0          0          1
+Pipe_110       CIRCULAR     1.0        0          0          0          1
+Pipe_111       CIRCULAR     1.0        0          0          0          1
+Pipe_112       CIRCULAR     1.0        0          0          0          1
+Pipe_113       CIRCULAR     1.0        0          0          0          1
+Pipe_114       CIRCULAR     1.0        0          0          0          1
+Pipe_115       CIRCULAR     1.0        0          0          0          1
+Pipe_116       CIRCULAR     1.0        0          0          0          1
+Pipe_117       CIRCULAR     1.0        0          0          0          1
+Pipe_118       CIRCULAR     1.0        0          0          0          1
+Pipe_119       CIRCULAR     1.0        0          0          0          1
+Pipe_120       CIRCULAR     1.0        0          0          0          1
+Pipe_121       CIRCULAR     1.0        0          0          0          1
+Pipe_122       CIRCULAR     1.0        0          0          0          1
+Pipe_123       CIRCULAR     1.0        0          0          0          1
+Pipe_124       CIRCULAR     1.0        0          0          0          1
+Pipe_125       CIRCULAR     1.0        0          0          0          1
+Pipe_126       CIRCULAR     1.0        0          0          0          1
+Pipe_127       CIRCULAR     1.0        0          0          0          1
+Pipe_128       CIRCULAR     1.0        0          0          0          1
+Pipe_129       CIRCULAR     1.0        0          0          0          1
+Pipe_130       CIRCULAR     1.0        0          0          0          1
+Pipe_131       CIRCULAR     1.0        0          0          0          1
+Pipe_132       CIRCULAR     1.0        0          0          0          1
+Pipe_133       CIRCULAR     1.0        0          0          0          1
+Pipe_134       CIRCULAR     1.0        0          0          0          1
+
+[TIMESERIES]
+;;Name           Date       Time       Value (CMS)
+HeavyStorm       01/01/2026 00:00      0.0
+HeavyStorm       01/01/2026 00:30      2.5
+HeavyStorm       01/01/2026 01:00      6.0
+HeavyStorm       01/01/2026 01:30      3.5
+HeavyStorm       01/01/2026 02:00      1.0
+HeavyStorm       01/01/2026 03:00      0.0
+
+[INFLOWS]
+;;Node           Constituent      Time Series      Type     Mfactor  Sfactor  Baseline Pattern
+A5             FLOW             HeavyStorm       FLOW     1.0      1.0      0.0
+C41            FLOW             HeavyStorm       FLOW     1.0      1.0      0.0
+B12            FLOW             HeavyStorm       FLOW     1.0      1.0      0.0
+C39            FLOW             HeavyStorm       FLOW     1.0      1.0      0.0
+A12            FLOW             HeavyStorm       FLOW     1.0      1.0      0.0

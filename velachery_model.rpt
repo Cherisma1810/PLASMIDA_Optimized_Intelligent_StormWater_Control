@@ -1,0 +1,1926 @@
+
+  EPA STORM WATER MANAGEMENT MODEL - VERSION 5.2 (Build 5.2.4)
+  PYSWMM TOOLKIT API - VERSION v1.0 (2026-02-26)
+  ------------------------------------------------------------
+
+  Velachery Ward 175 Synthetic Drainage Network 
+  WARNING 04: minimum elevation drop used for Conduit Pipe_26
+  WARNING 04: minimum elevation drop used for Conduit Pipe_95
+  WARNING 04: minimum elevation drop used for Conduit Pipe_104
+  
+  *************
+  Element Count
+  *************
+  Number of rain gages ...... 0
+  Number of subcatchments ... 0
+  Number of nodes ........... 135
+  Number of links ........... 134
+  Number of pollutants ...... 0
+  Number of land uses ....... 0
+  
+  
+  ************
+  Node Summary
+  ************
+                                           Invert      Max.    Ponded    External
+  Name                 Type                 Elev.     Depth      Area    Inflow  
+  -------------------------------------------------------------------------------
+  A5                   JUNCTION              4.92      2.00       0.0    Yes
+  A12A                 JUNCTION              4.57      2.00       0.0
+  C41                  JUNCTION              4.36      2.00       0.0    Yes
+  C16                  JUNCTION              4.19      2.00       0.0
+  B12                  JUNCTION              4.19      2.00       0.0    Yes
+  A9                   JUNCTION              4.16      2.00       0.0
+  C5                   JUNCTION              4.15      2.00       0.0
+  C39                  JUNCTION              4.13      2.00       0.0    Yes
+  A12                  JUNCTION              4.13      2.00       0.0    Yes
+  C46                  JUNCTION              4.11      2.00       0.0
+  B9                   JUNCTION              4.08      2.00       0.0
+  B13                  JUNCTION              4.06      2.00       0.0
+  B10                  JUNCTION              4.05      2.00       0.0
+  B7                   JUNCTION              4.02      2.00       0.0
+  C18                  JUNCTION              4.00      2.00       0.0
+  A8                   JUNCTION              3.99      2.00       0.0
+  C50                  JUNCTION              3.98      2.00       0.0
+  B8                   JUNCTION              3.98      2.00       0.0
+  C55                  JUNCTION              3.96      2.00       0.0
+  C29                  JUNCTION              3.96      2.00       0.0
+  C22                  JUNCTION              3.95      2.00       0.0
+  A6                   JUNCTION              3.95      2.00       0.0
+  C30                  JUNCTION              3.95      2.00       0.0
+  B17                  JUNCTION              3.94      2.00       0.0
+  C57                  JUNCTION              3.94      2.00       0.0
+  A10                  JUNCTION              3.94      2.00       0.0
+  A15                  JUNCTION              3.94      2.00       0.0
+  C38                  JUNCTION              3.93      2.00       0.0
+  C14                  JUNCTION              3.93      2.00       0.0
+  C42                  JUNCTION              3.93      2.00       0.0
+  A13                  JUNCTION              3.92      2.00       0.0
+  A3                   JUNCTION              3.92      2.00       0.0
+  C27                  JUNCTION              3.91      2.00       0.0
+  C48                  JUNCTION              3.90      2.00       0.0
+  C20                  JUNCTION              3.90      2.00       0.0
+  C21                  JUNCTION              3.90      2.00       0.0
+  C34                  JUNCTION              3.90      2.00       0.0
+  C52                  JUNCTION              3.89      2.00       0.0
+  B16                  JUNCTION              3.86      2.00       0.0
+  A7                   JUNCTION              3.85      2.00       0.0
+  C17                  JUNCTION              3.84      2.00       0.0
+  B11                  JUNCTION              3.82      2.00       0.0
+  C6                   JUNCTION              3.82      2.00       0.0
+  C62                  JUNCTION              3.81      2.00       0.0
+  C24                  JUNCTION              3.81      2.00       0.0
+  C4                   JUNCTION              3.80      2.00       0.0
+  A2                   JUNCTION              3.80      2.00       0.0
+  C43                  JUNCTION              3.79      2.00       0.0
+  C15                  JUNCTION              3.78      2.00       0.0
+  C12                  JUNCTION              3.78      2.00       0.0
+  C51                  JUNCTION              3.78      2.00       0.0
+  A11                  JUNCTION              3.76      2.00       0.0
+  C3                   JUNCTION              3.76      2.00       0.0
+  B6                   JUNCTION              3.73      2.00       0.0
+  C19                  JUNCTION              3.72      2.00       0.0
+  C31                  JUNCTION              3.72      2.00       0.0
+  C58                  JUNCTION              3.70      2.00       0.0
+  E28                  JUNCTION              3.70      2.00       0.0
+  C59                  JUNCTION              3.70      2.00       0.0
+  C32                  JUNCTION              3.69      2.00       0.0
+  C35                  JUNCTION              3.68      2.00       0.0
+  C9                   JUNCTION              3.68      2.00       0.0
+  C11                  JUNCTION              3.67      2.00       0.0
+  C37                  JUNCTION              3.64      2.00       0.0
+  E30                  JUNCTION              3.64      2.00       0.0
+  C56                  JUNCTION              3.64      2.00       0.0
+  B14                  JUNCTION              3.62      2.00       0.0
+  C60                  JUNCTION              3.61      2.00       0.0
+  D15                  JUNCTION              3.60      2.00       0.0
+  A1_OL                JUNCTION              3.59      2.00       0.0
+  C54                  JUNCTION              3.58      2.00       0.0
+  D17                  JUNCTION              3.58      2.00       0.0
+  C61                  JUNCTION              3.56      2.00       0.0
+  C13                  JUNCTION              3.55      2.00       0.0
+  B5                   JUNCTION              3.55      2.00       0.0
+  C25                  JUNCTION              3.55      2.00       0.0
+  A4                   JUNCTION              3.54      2.00       0.0
+  C49                  JUNCTION              3.53      2.00       0.0
+  C33                  JUNCTION              3.52      2.00       0.0
+  B23                  JUNCTION              3.52      2.00       0.0
+  C23                  JUNCTION              3.51      2.00       0.0
+  C64                  JUNCTION              3.50      2.00       0.0
+  B22                  JUNCTION              3.46      2.00       0.0
+  B20                  JUNCTION              3.46      2.00       0.0
+  B15                  JUNCTION              3.45      2.00       0.0
+  C10                  JUNCTION              3.44      2.00       0.0
+  D19                  JUNCTION              3.43      2.00       0.0
+  B4                   JUNCTION              3.42      2.00       0.0
+  C63                  JUNCTION              3.41      2.00       0.0
+  D16                  JUNCTION              3.39      2.00       0.0
+  C8                   JUNCTION              3.38      2.00       0.0
+  C53                  JUNCTION              3.38      2.00       0.0
+  B2                   JUNCTION              3.38      2.00       0.0
+  C47                  JUNCTION              3.37      2.00       0.0
+  B21                  JUNCTION              3.36      2.00       0.0
+  D22                  JUNCTION              3.36      2.00       0.0
+  C7                   JUNCTION              3.35      2.00       0.0
+  C28                  JUNCTION              3.34      2.00       0.0
+  A14                  JUNCTION              3.32      2.00       0.0
+  E2                   JUNCTION              3.30      2.00       0.0
+  C2                   JUNCTION              3.28      2.00       0.0
+  D10                  JUNCTION              3.28      2.00       0.0
+  B18                  JUNCTION              3.27      2.00       0.0
+  E11                  JUNCTION              3.26      2.00       0.0
+  E20                  JUNCTION              3.26      2.00       0.0
+  D21                  JUNCTION              3.26      2.00       0.0
+  C36                  JUNCTION              3.23      2.00       0.0
+  D20                  JUNCTION              3.23      2.00       0.0
+  D14                  JUNCTION              3.23      2.00       0.0
+  D6                   JUNCTION              3.22      2.00       0.0
+  D7                   JUNCTION              3.21      2.00       0.0
+  D12                  JUNCTION              3.21      2.00       0.0
+  E6                   JUNCTION              3.19      2.00       0.0
+  B24                  JUNCTION              3.18      2.00       0.0
+  D18                  JUNCTION              3.17      2.00       0.0
+  D13                  JUNCTION              3.15      2.00       0.0
+  B1_OL                JUNCTION              3.13      2.00       0.0
+  B19                  JUNCTION              3.13      2.00       0.0
+  E5                   JUNCTION              3.09      2.00       0.0
+  E4                   JUNCTION              3.08      2.00       0.0
+  E29                  JUNCTION              3.08      2.00       0.0
+  E3                   JUNCTION              3.02      2.00       0.0
+  D8                   JUNCTION              3.02      2.00       0.0
+  E10                  JUNCTION              3.02      2.00       0.0
+  D5                   JUNCTION              2.98      2.00       0.0
+  D9                   JUNCTION              2.96      2.00       0.0
+  D4                   JUNCTION              2.84      2.00       0.0
+  D11                  JUNCTION              2.83      2.00       0.0
+  F7                   JUNCTION              2.79      2.00       0.0
+  E7                   JUNCTION              2.75      2.00       0.0
+  D3                   JUNCTION              2.66      2.00       0.0
+  E1_OL                JUNCTION              2.63      2.00       0.0
+  D2                   JUNCTION              2.56      2.00       0.0
+  D1_OL                JUNCTION              2.54      2.00       0.0
+  C1_OL                OUTFALL               1.65      1.00       0.0
+  
+  
+  ************
+  Link Summary
+  ************
+  Name             From Node        To Node          Type            Length    %Slope Roughness
+  ---------------------------------------------------------------------------------------------
+  Gate_1           A5               A12A             ORIFICE     
+  Gate_2           A12A             C41              ORIFICE     
+  Gate_3           C41              C16              ORIFICE     
+  Gate_4           C16              B12              ORIFICE     
+  Gate_5           B12              A9               ORIFICE     
+  Gate_6           A9               C5               ORIFICE     
+  Gate_7           C5               C39              ORIFICE     
+  Pipe_8           C39              A12              CONDUIT         1056.7    0.0005    0.0150
+  Pipe_9           A12              C46              CONDUIT           28.1    0.0713    0.0150
+  Pipe_10          C46              B9               CONDUIT           25.2    0.1072    0.0150
+  Pipe_11          B9               B13              CONDUIT           86.6    0.0266    0.0150
+  Pipe_12          B13              B10              CONDUIT          922.7    0.0009    0.0150
+  Pipe_13          B10              B7               CONDUIT          686.2    0.0041    0.0150
+  Pipe_14          B7               C18              CONDUIT          397.0    0.0050    0.0150
+  Pipe_15          C18              A8               CONDUIT         1654.6    0.0005    0.0150
+  Pipe_16          A8               C50              CONDUIT          153.4    0.0052    0.0150
+  Pipe_17          C50              B8               CONDUIT          180.1    0.0022    0.0150
+  Pipe_18          B8               C55              CONDUIT           55.9    0.0286    0.0150
+  Pipe_19          C55              C29              CONDUIT           76.1    0.0118    0.0150
+  Pipe_20          C29              C22              CONDUIT           43.4    0.0046    0.0150
+  Pipe_21          C22              A6               CONDUIT         2000.0    0.0003    0.0150
+  Pipe_22          A6               C30              CONDUIT           10.0    0.0200    0.0150
+  Pipe_23          C30              B17              CONDUIT           54.1    0.0055    0.0150
+  Pipe_24          B17              C57              CONDUIT          195.4    0.0010    0.0150
+  Pipe_25          C57              A10              CONDUIT           19.9    0.0050    0.0150
+  Pipe_26          A10              A15              CONDUIT          156.9    0.0002    0.0150
+  Pipe_27          A15              C38              CONDUIT           11.0    0.0543    0.0150
+  Pipe_28          C38              C14              CONDUIT           35.3    0.0028    0.0150
+  Pipe_29          C14              C42              CONDUIT           11.1    0.0181    0.0150
+  Pipe_30          C42              A13              CONDUIT          147.4    0.0068    0.0150
+  Pipe_31          A13              A3               CONDUIT           11.1    0.0090    0.0150
+  Pipe_32          A3               C27              CONDUIT           24.3    0.0494    0.0150
+  Pipe_33          C27              C48              CONDUIT           13.9    0.0360    0.0150
+  Pipe_34          C48              C20              CONDUIT           96.7    0.0031    0.0150
+  Pipe_35          C20              C21              CONDUIT           11.1    0.0090    0.0150
+  Pipe_36          C21              C34              CONDUIT           37.1    0.0108    0.0150
+  Pipe_37          C34              C52              CONDUIT           10.0    0.0600    0.0150
+  Pipe_38          C52              B16              CONDUIT           10.0    0.3200    0.0150
+  Pipe_39          B16              A7               CONDUIT           38.1    0.0262    0.0150
+  Pipe_40          A7               C17              CONDUIT          246.5    0.0032    0.0150
+  Pipe_41          C17              B11              CONDUIT         2000.0    0.0008    0.0150
+  Pipe_42          B11              C6               CONDUIT           15.7    0.0509    0.0150
+  Pipe_43          C6               C62              CONDUIT          325.3    0.0012    0.0150
+  Pipe_44          C62              C24              CONDUIT           69.0    0.0014    0.0150
+  Pipe_45          C24              C4               CONDUIT          386.4    0.0026    0.0150
+  Pipe_46          C4               A2               CONDUIT           41.2    0.0049    0.0150
+  Pipe_47          A2               C43              CONDUIT           10.0    0.1000    0.0150
+  Pipe_48          C43              C15              CONDUIT          135.6    0.0044    0.0150
+  Pipe_49          C15              C12              CONDUIT           10.0    0.0100    0.0150
+  Pipe_50          C12              C51              CONDUIT          388.0    0.0015    0.0150
+  Pipe_51          C51              A11              CONDUIT          137.1    0.0124    0.0150
+  Pipe_52          A11              C3               CONDUIT           10.0    0.0300    0.0150
+  Pipe_53          C3               B6               CONDUIT         2000.0    0.0014    0.0150
+  Pipe_54          B6               C19              CONDUIT           11.0    0.0639    0.0150
+  Pipe_55          C19              C31              CONDUIT           70.0    0.0014    0.0150
+  Pipe_56          C31              C58              CONDUIT          492.3    0.0033    0.0150
+  Pipe_57          C58              E28              CONDUIT           89.0    0.0022    0.0150
+  Pipe_58          E28              C59              CONDUIT          862.2    0.0006    0.0150
+  Pipe_59          C59              C32              CONDUIT           34.1    0.0176    0.0150
+  Pipe_60          C32              C35              CONDUIT          536.9    0.0017    0.0150
+  Pipe_61          C35              C9               CONDUIT         1511.5    0.0001    0.0150
+  Pipe_62          C9               C11              CONDUIT         1056.7    0.0008    0.0150
+  Pipe_63          C11              C37              CONDUIT           28.1    0.1176    0.0150
+  Pipe_64          C37              E30              CONDUIT           25.2    0.0159    0.0150
+  Pipe_65          E30              C56              CONDUIT           86.6    0.0012    0.0150
+  Pipe_66          C56              B14              CONDUIT          922.7    0.0018    0.0150
+  Pipe_67          B14              C60              CONDUIT          686.2    0.0013    0.0150
+  Pipe_68          C60              D15              CONDUIT          397.0    0.0013    0.0150
+  Pipe_69          D15              A1_OL            CONDUIT         1654.6    0.0010    0.0150
+  Pipe_70          A1_OL            C54              CONDUIT          153.4    0.0052    0.0150
+  Pipe_71          C54              D17              CONDUIT          180.1    0.0033    0.0150
+  Pipe_72          D17              C61              CONDUIT           55.9    0.0268    0.0150
+  Pipe_73          C61              C13              CONDUIT           76.1    0.0105    0.0150
+  Pipe_74          C13              B5               CONDUIT           43.4    0.0069    0.0150
+  Pipe_75          B5               C25              CONDUIT         2000.0    0.0001    0.0150
+  Pipe_76          C25              A4               CONDUIT           10.0    0.0400    0.0150
+  Pipe_77          A4               C49              CONDUIT           54.1    0.0166    0.0150
+  Pipe_78          C49              C33              CONDUIT          195.4    0.0056    0.0150
+  Pipe_79          C33              B23              CONDUIT           19.9    0.0050    0.0150
+  Pipe_80          B23              C23              CONDUIT          156.9    0.0083    0.0150
+  Pipe_81          C23              C64              CONDUIT           11.0    0.0634    0.0150
+  Pipe_82          C64              B22              CONDUIT           35.3    0.1106    0.0150
+  Pipe_83          B22              B20              CONDUIT           11.1    0.0090    0.0150
+  Pipe_84          B20              B15              CONDUIT          147.4    0.0068    0.0150
+  Pipe_85          B15              C10              CONDUIT           11.1    0.0633    0.0150
+  Pipe_86          C10              D19              CONDUIT           24.3    0.0658    0.0150
+  Pipe_87          D19              B4               CONDUIT           13.9    0.0504    0.0150
+  Pipe_88          B4               C63              CONDUIT           96.7    0.0134    0.0150
+  Pipe_89          C63              D16              CONDUIT           11.1    0.1707    0.0150
+  Pipe_90          D16              C8               CONDUIT           37.1    0.0269    0.0150
+  Pipe_91          C8               C53              CONDUIT           10.0    0.0200    0.0150
+  Pipe_92          C53              B2               CONDUIT           10.0    0.0200    0.0150
+  Pipe_93          B2               C47              CONDUIT           38.1    0.0079    0.0150
+  Pipe_94          C47              B21              CONDUIT          246.5    0.0041    0.0150
+  Pipe_95          B21              D22              CONDUIT         2000.0    0.0000    0.0150
+  Pipe_96          D22              C7               CONDUIT           15.7    0.0700    0.0150
+  Pipe_97          C7               C28              CONDUIT          325.3    0.0046    0.0150
+  Pipe_98          C28              A14              CONDUIT           69.0    0.0304    0.0150
+  Pipe_99          A14              E2               CONDUIT          386.4    0.0049    0.0150
+  Pipe_100         E2               C2               CONDUIT           41.2    0.0389    0.0150
+  Pipe_101         C2               D10              CONDUIT           10.0    0.0100    0.0150
+  Pipe_102         D10              B18              CONDUIT          135.6    0.0044    0.0150
+  Pipe_103         B18              E11              CONDUIT           10.0    0.1300    0.0150
+  Pipe_104         E11              E20              CONDUIT          388.0    0.0001    0.0150
+  Pipe_105         E20              D21              CONDUIT          137.1    0.0036    0.0150
+  Pipe_106         D21              C36              CONDUIT           10.0    0.2300    0.0150
+  Pipe_107         C36              D20              CONDUIT         2000.0    0.0002    0.0150
+  Pipe_108         D20              D14              CONDUIT           11.0    0.0182    0.0150
+  Pipe_109         D14              D6               CONDUIT           70.0    0.0157    0.0150
+  Pipe_110         D6               D7               CONDUIT          492.3    0.0016    0.0150
+  Pipe_111         D7               D12              CONDUIT           89.0    0.0011    0.0150
+  Pipe_112         D12              E6               CONDUIT          862.2    0.0023    0.0150
+  Pipe_113         E6               B24              CONDUIT           34.1    0.0323    0.0150
+  Pipe_114         B24              D18              CONDUIT          536.9    0.0009    0.0150
+  Pipe_115         D18              D13              CONDUIT         1511.5    0.0015    0.0150
+  Pipe_116         D13              B1_OL            CONDUIT         1056.7    0.0016    0.0150
+  Pipe_117         B1_OL            B19              CONDUIT           28.1    0.0107    0.0150
+  Pipe_118         B19              E5               CONDUIT           25.2    0.1390    0.0150
+  Pipe_119         E5               E4               CONDUIT           86.6    0.0115    0.0150
+  Pipe_120         E4               E29              CONDUIT          922.7    0.0004    0.0150
+  Pipe_121         E29              E3               CONDUIT          686.2    0.0080    0.0150
+  Pipe_122         E3               D8               CONDUIT          397.0    0.0010    0.0150
+  Pipe_123         D8               E10              CONDUIT         1654.6    0.0002    0.0150
+  Pipe_124         E10              D5               CONDUIT          153.4    0.0241    0.0150
+  Pipe_125         D5               D9               CONDUIT          180.1    0.0133    0.0150
+  Pipe_126         D9               D4               CONDUIT           55.9    0.2148    0.0150
+  Pipe_127         D4               D11              CONDUIT           76.1    0.0066    0.0150
+  Pipe_128         D11              F7               CONDUIT           43.4    0.0852    0.0150
+  Pipe_129         F7               E7               CONDUIT         2000.0    0.0023    0.0150
+  Pipe_130         E7               D3               CONDUIT           10.0    0.9400    0.0150
+  Pipe_131         D3               E1_OL            CONDUIT           54.1    0.0499    0.0150
+  Pipe_132         E1_OL            D2               CONDUIT          195.4    0.0328    0.0150
+  Pipe_133         D2               D1_OL            CONDUIT           19.9    0.1055    0.0150
+  Pipe_134         D1_OL            C1_OL            CONDUIT          156.9    0.5703    0.0150
+  
+  
+  *********************
+  Cross Section Summary
+  *********************
+                                        Full     Full     Hyd.     Max.   No. of     Full
+  Conduit          Shape               Depth     Area     Rad.    Width  Barrels     Flow
+  ---------------------------------------------------------------------------------------
+  Pipe_8           CIRCULAR             1.00     0.79     0.25     1.00        1     0.05
+  Pipe_9           CIRCULAR             1.00     0.79     0.25     1.00        1     0.55
+  Pipe_10          CIRCULAR             1.00     0.79     0.25     1.00        1     0.68
+  Pipe_11          CIRCULAR             1.00     0.79     0.25     1.00        1     0.34
+  Pipe_12          CIRCULAR             1.00     0.79     0.25     1.00        1     0.06
+  Pipe_13          CIRCULAR             1.00     0.79     0.25     1.00        1     0.13
+  Pipe_14          CIRCULAR             1.00     0.79     0.25     1.00        1     0.15
+  Pipe_15          CIRCULAR             1.00     0.79     0.25     1.00        1     0.05
+  Pipe_16          CIRCULAR             1.00     0.79     0.25     1.00        1     0.15
+  Pipe_17          CIRCULAR             1.00     0.79     0.25     1.00        1     0.10
+  Pipe_18          CIRCULAR             1.00     0.79     0.25     1.00        1     0.35
+  Pipe_19          CIRCULAR             1.00     0.79     0.25     1.00        1     0.23
+  Pipe_20          CIRCULAR             1.00     0.79     0.25     1.00        1     0.14
+  Pipe_21          CIRCULAR             1.00     0.79     0.25     1.00        1     0.04
+  Pipe_22          CIRCULAR             1.00     0.79     0.25     1.00        1     0.29
+  Pipe_23          CIRCULAR             1.00     0.79     0.25     1.00        1     0.15
+  Pipe_24          CIRCULAR             1.00     0.79     0.25     1.00        1     0.07
+  Pipe_25          CIRCULAR             1.00     0.79     0.25     1.00        1     0.15
+  Pipe_26          CIRCULAR             1.00     0.79     0.25     1.00        1     0.03
+  Pipe_27          CIRCULAR             1.00     0.79     0.25     1.00        1     0.48
+  Pipe_28          CIRCULAR             1.00     0.79     0.25     1.00        1     0.11
+  Pipe_29          CIRCULAR             1.00     0.79     0.25     1.00        1     0.28
+  Pipe_30          CIRCULAR             1.00     0.79     0.25     1.00        1     0.17
+  Pipe_31          CIRCULAR             1.00     0.79     0.25     1.00        1     0.20
+  Pipe_32          CIRCULAR             1.00     0.79     0.25     1.00        1     0.46
+  Pipe_33          CIRCULAR             1.00     0.79     0.25     1.00        1     0.39
+  Pipe_34          CIRCULAR             1.00     0.79     0.25     1.00        1     0.12
+  Pipe_35          CIRCULAR             1.00     0.79     0.25     1.00        1     0.20
+  Pipe_36          CIRCULAR             1.00     0.79     0.25     1.00        1     0.22
+  Pipe_37          CIRCULAR             1.00     0.79     0.25     1.00        1     0.51
+  Pipe_38          CIRCULAR             1.00     0.79     0.25     1.00        1     1.18
+  Pipe_39          CIRCULAR             1.00     0.79     0.25     1.00        1     0.34
+  Pipe_40          CIRCULAR             1.00     0.79     0.25     1.00        1     0.12
+  Pipe_41          CIRCULAR             1.00     0.79     0.25     1.00        1     0.06
+  Pipe_42          CIRCULAR             1.00     0.79     0.25     1.00        1     0.47
+  Pipe_43          CIRCULAR             1.00     0.79     0.25     1.00        1     0.07
+  Pipe_44          CIRCULAR             1.00     0.79     0.25     1.00        1     0.08
+  Pipe_45          CIRCULAR             1.00     0.79     0.25     1.00        1     0.11
+  Pipe_46          CIRCULAR             1.00     0.79     0.25     1.00        1     0.14
+  Pipe_47          CIRCULAR             1.00     0.79     0.25     1.00        1     0.66
+  Pipe_48          CIRCULAR             1.00     0.79     0.25     1.00        1     0.14
+  Pipe_49          CIRCULAR             1.00     0.79     0.25     1.00        1     0.21
+  Pipe_50          CIRCULAR             1.00     0.79     0.25     1.00        1     0.08
+  Pipe_51          CIRCULAR             1.00     0.79     0.25     1.00        1     0.23
+  Pipe_52          CIRCULAR             1.00     0.79     0.25     1.00        1     0.36
+  Pipe_53          CIRCULAR             1.00     0.79     0.25     1.00        1     0.08
+  Pipe_54          CIRCULAR             1.00     0.79     0.25     1.00        1     0.53
+  Pipe_55          CIRCULAR             1.00     0.79     0.25     1.00        1     0.08
+  Pipe_56          CIRCULAR             1.00     0.79     0.25     1.00        1     0.12
+  Pipe_57          CIRCULAR             1.00     0.79     0.25     1.00        1     0.10
+  Pipe_58          CIRCULAR             1.00     0.79     0.25     1.00        1     0.05
+  Pipe_59          CIRCULAR             1.00     0.79     0.25     1.00        1     0.28
+  Pipe_60          CIRCULAR             1.00     0.79     0.25     1.00        1     0.09
+  Pipe_61          CIRCULAR             1.00     0.79     0.25     1.00        1     0.02
+  Pipe_62          CIRCULAR             1.00     0.79     0.25     1.00        1     0.06
+  Pipe_63          CIRCULAR             1.00     0.79     0.25     1.00        1     0.71
+  Pipe_64          CIRCULAR             1.00     0.79     0.25     1.00        1     0.26
+  Pipe_65          CIRCULAR             1.00     0.79     0.25     1.00        1     0.07
+  Pipe_66          CIRCULAR             1.00     0.79     0.25     1.00        1     0.09
+  Pipe_67          CIRCULAR             1.00     0.79     0.25     1.00        1     0.08
+  Pipe_68          CIRCULAR             1.00     0.79     0.25     1.00        1     0.07
+  Pipe_69          CIRCULAR             1.00     0.79     0.25     1.00        1     0.06
+  Pipe_70          CIRCULAR             1.00     0.79     0.25     1.00        1     0.15
+  Pipe_71          CIRCULAR             1.00     0.79     0.25     1.00        1     0.12
+  Pipe_72          CIRCULAR             1.00     0.79     0.25     1.00        1     0.34
+  Pipe_73          CIRCULAR             1.00     0.79     0.25     1.00        1     0.21
+  Pipe_74          CIRCULAR             1.00     0.79     0.25     1.00        1     0.17
+  Pipe_75          CIRCULAR             1.00     0.79     0.25     1.00        1     0.02
+  Pipe_76          CIRCULAR             1.00     0.79     0.25     1.00        1     0.42
+  Pipe_77          CIRCULAR             1.00     0.79     0.25     1.00        1     0.27
+  Pipe_78          CIRCULAR             1.00     0.79     0.25     1.00        1     0.16
+  Pipe_79          CIRCULAR             1.00     0.79     0.25     1.00        1     0.15
+  Pipe_80          CIRCULAR             1.00     0.79     0.25     1.00        1     0.19
+  Pipe_81          CIRCULAR             1.00     0.79     0.25     1.00        1     0.52
+  Pipe_82          CIRCULAR             1.00     0.79     0.25     1.00        1     0.69
+  Pipe_83          CIRCULAR             1.00     0.79     0.25     1.00        1     0.20
+  Pipe_84          CIRCULAR             1.00     0.79     0.25     1.00        1     0.17
+  Pipe_85          CIRCULAR             1.00     0.79     0.25     1.00        1     0.52
+  Pipe_86          CIRCULAR             1.00     0.79     0.25     1.00        1     0.53
+  Pipe_87          CIRCULAR             1.00     0.79     0.25     1.00        1     0.47
+  Pipe_88          CIRCULAR             1.00     0.79     0.25     1.00        1     0.24
+  Pipe_89          CIRCULAR             1.00     0.79     0.25     1.00        1     0.86
+  Pipe_90          CIRCULAR             1.00     0.79     0.25     1.00        1     0.34
+  Pipe_91          CIRCULAR             1.00     0.79     0.25     1.00        1     0.29
+  Pipe_92          CIRCULAR             1.00     0.79     0.25     1.00        1     0.29
+  Pipe_93          CIRCULAR             1.00     0.79     0.25     1.00        1     0.18
+  Pipe_94          CIRCULAR             1.00     0.79     0.25     1.00        1     0.13
+  Pipe_95          CIRCULAR             1.00     0.79     0.25     1.00        1     0.01
+  Pipe_96          CIRCULAR             1.00     0.79     0.25     1.00        1     0.55
+  Pipe_97          CIRCULAR             1.00     0.79     0.25     1.00        1     0.14
+  Pipe_98          CIRCULAR             1.00     0.79     0.25     1.00        1     0.36
+  Pipe_99          CIRCULAR             1.00     0.79     0.25     1.00        1     0.15
+  Pipe_100         CIRCULAR             1.00     0.79     0.25     1.00        1     0.41
+  Pipe_101         CIRCULAR             1.00     0.79     0.25     1.00        1     0.21
+  Pipe_102         CIRCULAR             1.00     0.79     0.25     1.00        1     0.14
+  Pipe_103         CIRCULAR             1.00     0.79     0.25     1.00        1     0.75
+  Pipe_104         CIRCULAR             1.00     0.79     0.25     1.00        1     0.02
+  Pipe_105         CIRCULAR             1.00     0.79     0.25     1.00        1     0.13
+  Pipe_106         CIRCULAR             1.00     0.79     0.25     1.00        1     1.00
+  Pipe_107         CIRCULAR             1.00     0.79     0.25     1.00        1     0.03
+  Pipe_108         CIRCULAR             1.00     0.79     0.25     1.00        1     0.28
+  Pipe_109         CIRCULAR             1.00     0.79     0.25     1.00        1     0.26
+  Pipe_110         CIRCULAR             1.00     0.79     0.25     1.00        1     0.08
+  Pipe_111         CIRCULAR             1.00     0.79     0.25     1.00        1     0.07
+  Pipe_112         CIRCULAR             1.00     0.79     0.25     1.00        1     0.10
+  Pipe_113         CIRCULAR             1.00     0.79     0.25     1.00        1     0.37
+  Pipe_114         CIRCULAR             1.00     0.79     0.25     1.00        1     0.06
+  Pipe_115         CIRCULAR             1.00     0.79     0.25     1.00        1     0.08
+  Pipe_116         CIRCULAR             1.00     0.79     0.25     1.00        1     0.08
+  Pipe_117         CIRCULAR             1.00     0.79     0.25     1.00        1     0.21
+  Pipe_118         CIRCULAR             1.00     0.79     0.25     1.00        1     0.77
+  Pipe_119         CIRCULAR             1.00     0.79     0.25     1.00        1     0.22
+  Pipe_120         CIRCULAR             1.00     0.79     0.25     1.00        1     0.04
+  Pipe_121         CIRCULAR             1.00     0.79     0.25     1.00        1     0.19
+  Pipe_122         CIRCULAR             1.00     0.79     0.25     1.00        1     0.07
+  Pipe_123         CIRCULAR             1.00     0.79     0.25     1.00        1     0.03
+  Pipe_124         CIRCULAR             1.00     0.79     0.25     1.00        1     0.32
+  Pipe_125         CIRCULAR             1.00     0.79     0.25     1.00        1     0.24
+  Pipe_126         CIRCULAR             1.00     0.79     0.25     1.00        1     0.96
+  Pipe_127         CIRCULAR             1.00     0.79     0.25     1.00        1     0.17
+  Pipe_128         CIRCULAR             1.00     0.79     0.25     1.00        1     0.61
+  Pipe_129         CIRCULAR             1.00     0.79     0.25     1.00        1     0.10
+  Pipe_130         CIRCULAR             1.00     0.79     0.25     1.00        1     2.01
+  Pipe_131         CIRCULAR             1.00     0.79     0.25     1.00        1     0.46
+  Pipe_132         CIRCULAR             1.00     0.79     0.25     1.00        1     0.38
+  Pipe_133         CIRCULAR             1.00     0.79     0.25     1.00        1     0.68
+  Pipe_134         CIRCULAR             1.00     0.79     0.25     1.00        1     1.57
+  
+  
+  ****************
+  Analysis Options
+  ****************
+  Flow Units ............... CMS
+  Process Models:
+    Rainfall/Runoff ........ NO
+    RDII ................... NO
+    Snowmelt ............... NO
+    Groundwater ............ NO
+    Flow Routing ........... YES
+    Ponding Allowed ........ NO
+    Water Quality .......... NO
+  Flow Routing Method ...... DYNWAVE
+  Surcharge Method ......... EXTRAN
+  Starting Date ............ 01/01/2026 00:00:00
+  Ending Date .............. 01/02/2026 00:00:00
+  Antecedent Dry Days ...... 0.0
+  Report Time Step ......... 00:05:00
+  Routing Time Step ........ 60.00 sec
+  Variable Time Step ....... YES
+  Maximum Trials ........... 8
+  Number of Threads ........ 1
+  Head Tolerance ........... 0.001524 m
+  
+  
+  *********************
+  Control Actions Taken
+  *********************
+   01/01/2026: 00:00:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:00:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:00:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:00:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:00:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:00:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:05:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:05:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:05:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:05:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:05:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:05:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:05:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:10:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:10:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:10:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:10:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:10:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:10:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:10:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:15:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:15:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:15:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:15:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:15:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:15:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:15:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:20:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:20:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:20:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:20:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:20:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:20:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:20:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:25:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:25:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:25:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:25:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:25:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:25:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:25:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:30:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:30:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:30:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:30:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:30:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:30:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:30:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:35:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:35:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:35:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:35:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:35:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:35:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:35:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:40:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:40:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:40:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:40:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:40:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:40:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:40:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:45:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:45:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:45:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:45:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:45:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:45:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:45:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:50:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:50:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:50:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:50:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:50:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:50:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:50:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:55:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:55:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:55:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:55:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:55:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 00:55:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 00:55:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:00:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:00:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:00:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:00:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:00:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:00:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:05:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:05:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:05:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:05:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:05:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:05:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:05:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:10:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:10:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:10:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:10:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:10:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:10:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:10:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:15:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:15:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:15:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:15:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:15:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:15:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:15:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:20:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:20:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:20:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:20:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:20:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:20:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:20:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:25:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:25:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:25:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:25:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:25:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:25:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:25:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:30:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:30:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:30:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:30:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:30:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:30:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:30:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:35:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:35:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:35:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:35:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:35:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:35:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:35:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:40:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:40:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:40:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:40:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:40:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:40:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:40:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:45:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:45:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:45:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:45:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:45:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:45:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:45:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:50:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:50:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:50:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:50:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:50:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:50:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:50:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:55:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:55:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:55:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:55:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 01:55:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:55:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 01:55:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:00:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:00:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:00:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:00:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:00:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:00:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:05:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:05:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:05:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:05:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:05:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:05:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:05:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:10:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:10:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:10:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:10:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:10:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:10:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:10:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:15:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:15:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:15:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:15:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:15:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:15:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:15:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:20:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:20:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:20:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:20:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:20:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:20:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:20:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:25:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:25:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:25:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:25:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:25:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:25:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:25:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:30:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:30:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:30:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:30:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:30:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:30:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:30:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:35:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:35:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:35:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:35:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:35:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:35:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:35:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:40:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:40:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:40:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:40:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:40:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:40:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:40:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:45:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:45:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:45:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:45:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:45:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:45:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:45:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:50:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:50:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:50:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:50:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:50:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:50:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:50:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:55:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:55:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:55:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:55:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:55:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 02:55:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 02:55:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:00:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:00:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:00:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:00:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:00:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:00:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:05:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:05:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:05:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:05:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:05:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:05:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:05:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:10:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:10:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:10:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:10:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:10:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:10:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:10:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:15:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:15:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:15:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:15:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:15:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:15:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:15:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:20:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:20:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:20:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:20:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:20:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:20:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:20:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:25:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:25:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:25:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:25:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:25:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:25:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:25:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:30:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:30:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:30:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:30:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:30:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:30:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:30:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:35:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:35:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:35:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:35:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:35:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:35:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:35:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:40:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:40:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:40:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:40:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:40:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:40:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:40:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:45:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:45:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:45:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:45:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:45:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:45:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:45:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:50:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:50:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:50:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:50:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:50:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:50:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:50:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:55:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:55:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:55:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:55:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:55:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 03:55:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 03:55:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:00:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:00:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:00:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:00:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:00:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:00:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:05:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:05:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:05:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:05:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:05:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:05:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:05:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:10:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:10:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:10:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:10:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:10:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:10:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:10:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:15:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:15:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:15:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:15:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:15:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:15:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:15:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:20:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:20:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:20:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:20:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:20:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:20:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:20:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:25:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:25:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:25:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:25:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:25:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:25:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:25:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:30:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:30:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:30:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:30:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:30:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:30:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:30:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:35:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:35:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:35:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:35:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:35:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:35:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:35:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:40:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:40:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:40:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:40:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:40:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:40:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:40:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:45:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:45:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:45:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:45:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:45:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:45:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:45:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:50:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:50:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:50:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:50:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:50:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:50:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:50:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:55:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:55:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:55:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 04:55:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:55:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:55:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 04:55:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:00:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:00:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:00:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:00:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:00:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:00:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:05:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:05:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:05:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:05:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:05:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:05:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:05:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:10:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:10:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:10:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:10:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:10:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:10:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:10:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:15:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:15:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:15:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:15:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:15:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:15:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:15:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:20:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:20:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:20:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:20:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:20:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:20:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:20:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:25:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:25:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:25:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:25:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:25:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:25:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:25:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:30:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:30:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:30:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:30:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:30:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:30:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:30:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:35:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:35:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:35:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:35:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:35:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:35:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:35:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:40:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:40:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:40:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:40:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:40:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:40:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:40:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:45:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:45:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:45:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:45:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:45:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:45:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:45:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:50:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:50:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:50:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:50:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:50:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:50:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:50:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:55:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:55:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:55:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:55:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 05:55:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:55:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 05:55:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:00:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:00:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:00:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:00:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:00:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:00:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:05:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:05:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:05:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:05:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:05:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:05:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:05:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:10:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:10:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:10:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:10:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:10:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:10:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:10:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:15:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:15:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:15:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:15:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:15:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:15:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:15:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:20:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:20:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:20:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:20:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:20:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:20:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:20:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:25:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:25:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:25:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:25:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:25:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:25:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:25:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:30:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:30:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:30:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:30:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:30:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:30:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:30:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:35:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:35:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:35:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:35:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:35:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:35:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:35:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:40:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:40:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:40:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:40:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:40:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:40:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:40:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:45:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:45:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:45:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:45:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:45:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:45:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:45:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:50:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:50:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:50:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:50:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:50:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:50:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:50:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:55:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:55:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:55:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:55:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:55:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 06:55:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 06:55:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:00:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:00:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:00:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:00:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:00:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:00:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:05:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:05:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:05:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:05:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:05:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:05:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:05:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:10:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:10:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:10:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:10:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:10:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:10:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:10:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:15:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:15:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:15:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:15:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:15:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:15:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:15:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:20:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:20:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:20:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:20:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:20:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:20:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:20:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:25:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:25:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:25:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:25:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:25:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:25:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:25:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:30:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:30:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:30:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:30:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:30:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:30:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:30:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:35:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:35:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:35:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:35:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:35:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:35:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:35:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:40:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:40:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:40:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:40:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:40:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:40:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:40:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:45:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:45:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:45:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:45:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:45:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:45:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:45:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:50:00 Link Gate_1 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:50:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:50:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:50:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:50:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:50:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:50:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:55:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:55:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:55:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:55:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:55:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 07:55:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 07:55:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:00:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:00:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:00:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:00:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:00:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:00:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:00:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:05:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:05:00 Link Gate_2 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:05:00 Link Gate_3 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:05:00 Link Gate_4 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:05:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:05:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:05:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:10:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:10:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:10:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:10:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:10:00 Link Gate_5 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:10:00 Link Gate_6 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:10:00 Link Gate_7 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:15:00 Link Gate_1 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:15:00 Link Gate_2 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:15:00 Link Gate_3 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:15:00 Link Gate_4 setting changed to   1.00 by Control ToolkitAPI
+   01/01/2026: 08:15:00 Link Gate_5 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:15:00 Link Gate_6 setting changed to   0.00 by Control ToolkitAPI
+   01/01/2026: 08:15:00 Link Gate_7 setting changed to   1.00 by Control ToolkitAPI
+
+  
+  **************************        Volume        Volume
+  Flow Routing Continuity        hectare-m      10^6 ltr
+  **************************     ---------     ---------
+  Dry Weather Inflow .......         0.000         0.000
+  Wet Weather Inflow .......         0.000         0.000
+  Groundwater Inflow .......         0.000         0.000
+  RDII Inflow ..............         0.000         0.000
+  External Inflow ..........        12.069       120.689
+  External Outflow .........         0.000         0.000
+  Flooding Loss ............         7.154        71.539
+  Evaporation Loss .........         0.000         0.000
+  Exfiltration Loss ........         0.000         0.000
+  Initial Stored Volume ....         0.000         0.000
+  Final Stored Volume ......         0.631         6.310
+  Continuity Error (%) .....        35.497
+  
+  
+  *************************
+  Highest Continuity Errors
+  *************************
+  Node C59 (97.59%)
+  Node C32 (97.43%)
+  Node E28 (90.72%)
+  Node B6 (61.75%)
+  Node C41 (57.19%)
+  
+  
+  ***************************
+  Time-Step Critical Elements
+  ***************************
+  Link Pipe_38 (52.65%)
+  Link Pipe_22 (41.78%)
+  Link Pipe_10 (1.83%)
+  Link Pipe_20 (1.72%)
+  
+  
+  ********************************
+  Highest Flow Instability Indexes
+  ********************************
+  Link Pipe_35 (3)
+  Link Gate_6 (2)
+  Link Gate_7 (2)
+  Link Gate_5 (2)
+  Link Pipe_36 (2)
+  
+  
+  *********************************
+  Most Frequent Nonconverging Nodes
+  *********************************
+  Node C1_OL (1.86%)
+  Node A9 (0.49%)
+  Node B12 (0.46%)
+  Node C46 (0.45%)
+  Node C5 (0.45%)
+  
+  
+  *************************
+  Routing Time Step Summary
+  *************************
+  Minimum Time Step           :     0.02 sec
+  Average Time Step           :     3.87 sec
+  Maximum Time Step           :    60.00 sec
+  % of Time in Steady State   :     0.00
+  Average Iterations per Step :     2.18
+  % of Steps Not Converging   :     1.86
+  Time Step Frequencies       :
+     60.000 - 23.031 sec      :     1.02 %
+     23.031 -  8.841 sec      :     2.69 %
+      8.841 -  3.393 sec      :     8.33 %
+      3.393 -  1.303 sec      :    87.65 %
+      1.303 -  0.500 sec      :     0.31 %
+  
+  
+  ******************
+  Node Depth Summary
+  ******************
+  
+  ---------------------------------------------------------------------------------
+                                 Average  Maximum  Maximum  Time of Max    Reported
+                                   Depth    Depth      HGL   Occurrence   Max Depth
+  Node                 Type       Meters   Meters   Meters  days hr:min      Meters
+  ---------------------------------------------------------------------------------
+  A5                   JUNCTION     0.61     2.00     6.92     0  00:56        2.00
+  A12A                 JUNCTION     1.04     2.00     6.57     0  00:01        2.00
+  C41                  JUNCTION     1.38     2.00     6.35     0  00:05        2.00
+  C16                  JUNCTION     1.55     2.00     6.19     0  00:31        2.00
+  B12                  JUNCTION     1.48     2.00     6.19     0  00:10        2.00
+  A9                   JUNCTION     1.28     2.00     6.16     0  00:10        2.00
+  C5                   JUNCTION     1.10     2.00     6.15     0  00:15        2.00
+  C39                  JUNCTION     0.84     2.00     6.13     0  00:12        2.00
+  A12                  JUNCTION     0.83     2.00     6.13     0  00:14        2.00
+  C46                  JUNCTION     0.84     2.00     6.11     0  00:15        2.00
+  B9                   JUNCTION     0.86     2.00     6.08     0  00:14        2.00
+  B13                  JUNCTION     0.88     2.00     6.06     0  00:17        2.00
+  B10                  JUNCTION     0.83     1.78     5.83     0  01:16        1.74
+  B7                   JUNCTION     0.82     1.64     5.66     0  01:16        1.58
+  C18                  JUNCTION     0.81     1.54     5.54     0  01:16        1.49
+  A8                   JUNCTION     0.72     1.05     5.04     0  02:50        1.05
+  C50                  JUNCTION     0.71     1.02     5.01     0  02:50        1.02
+  B8                   JUNCTION     0.70     0.98     4.96     0  02:51        0.98
+  C55                  JUNCTION     0.71     0.99     4.95     0  02:51        0.98
+  C29                  JUNCTION     0.72     0.98     4.94     0  02:54        0.98
+  C22                  JUNCTION     0.71     0.98     4.93     0  02:53        0.97
+  A6                   JUNCTION     0.54     0.63     4.58     0  03:41        0.63
+  C30                  JUNCTION     0.54     0.63     4.57     0  03:41        0.63
+  B17                  JUNCTION     0.54     0.63     4.57     0  04:43        0.63
+  C57                  JUNCTION     0.52     0.61     4.55     0  04:51        0.61
+  A10                  JUNCTION     0.51     0.61     4.55     0  04:51        0.61
+  A15                  JUNCTION     0.49     0.60     4.54     0  04:58        0.60
+  C38                  JUNCTION     0.50     0.60     4.54     0  04:58        0.60
+  C14                  JUNCTION     0.49     0.60     4.53     0  04:59        0.60
+  C42                  JUNCTION     0.49     0.60     4.53     0  04:59        0.60
+  A13                  JUNCTION     0.48     0.60     4.52     0  05:04        0.60
+  A3                   JUNCTION     0.48     0.60     4.52     0  05:04        0.60
+  C27                  JUNCTION     0.49     0.61     4.52     0  05:05        0.61
+  C48                  JUNCTION     0.49     0.61     4.51     0  05:04        0.61
+  C20                  JUNCTION     0.48     0.61     4.51     0  05:09        0.61
+  C21                  JUNCTION     0.48     0.61     4.51     0  05:09        0.61
+  C34                  JUNCTION     0.48     0.61     4.50     0  05:10        0.61
+  C52                  JUNCTION     0.48     0.61     4.50     0  05:10        0.61
+  B16                  JUNCTION     0.51     0.64     4.50     0  05:10        0.64
+  A7                   JUNCTION     0.51     0.65     4.50     0  05:11        0.65
+  C17                  JUNCTION     0.47     0.64     4.48     0  05:18        0.64
+  B11                  JUNCTION     0.29     0.53     4.35     0  08:20        0.53
+  C6                   JUNCTION     0.30     0.53     4.35     0  08:20        0.53
+  C62                  JUNCTION     0.26     0.52     4.33     0  08:20        0.52
+  C24                  JUNCTION     0.25     0.52     4.33     0  08:20        0.52
+  C4                   JUNCTION     0.22     0.50     4.30     0  08:20        0.50
+  A2                   JUNCTION     0.21     0.50     4.30     0  08:20        0.50
+  C43                  JUNCTION     0.22     0.51     4.30     0  08:20        0.51
+  C15                  JUNCTION     0.21     0.51     4.29     0  08:20        0.51
+  C12                  JUNCTION     0.20     0.51     4.29     0  08:20        0.51
+  C51                  JUNCTION     0.17     0.49     4.26     0  08:20        0.49
+  A11                  JUNCTION     0.16     0.50     4.26     0  08:20        0.50
+  C3                   JUNCTION     0.15     0.50     4.25     0  08:20        0.50
+  B6                   JUNCTION     0.05     0.29     4.02     0  08:20        0.29
+  C19                  JUNCTION     0.05     0.30     4.02     0  08:20        0.30
+  C31                  JUNCTION     0.04     0.29     4.01     0  08:20        0.29
+  C58                  JUNCTION     0.02     0.20     3.91     0  08:20        0.20
+  E28                  JUNCTION     0.01     0.18     3.88     0  08:20        0.18
+  C59                  JUNCTION     0.00     0.03     3.72     0  08:20        0.03
+  C32                  JUNCTION     0.00     0.01     3.70     0  08:20        0.01
+  C35                  JUNCTION     0.00     0.00     3.68     0  08:20        0.00
+  C9                   JUNCTION     0.00     0.00     3.68     0  08:20        0.00
+  C11                  JUNCTION     0.00     0.00     3.67     0  00:00        0.00
+  C37                  JUNCTION     0.00     0.00     3.64     0  00:00        0.00
+  E30                  JUNCTION     0.00     0.00     3.64     0  00:00        0.00
+  C56                  JUNCTION     0.00     0.00     3.64     0  00:00        0.00
+  B14                  JUNCTION     0.00     0.00     3.62     0  00:00        0.00
+  C60                  JUNCTION     0.00     0.00     3.61     0  00:00        0.00
+  D15                  JUNCTION     0.00     0.00     3.60     0  00:00        0.00
+  A1_OL                JUNCTION     0.00     0.00     3.59     0  00:00        0.00
+  C54                  JUNCTION     0.00     0.00     3.58     0  00:00        0.00
+  D17                  JUNCTION     0.00     0.00     3.58     0  00:00        0.00
+  C61                  JUNCTION     0.00     0.00     3.56     0  00:00        0.00
+  C13                  JUNCTION     0.00     0.00     3.55     0  00:00        0.00
+  B5                   JUNCTION     0.00     0.00     3.55     0  00:00        0.00
+  C25                  JUNCTION     0.00     0.00     3.55     0  00:00        0.00
+  A4                   JUNCTION     0.00     0.00     3.54     0  00:00        0.00
+  C49                  JUNCTION     0.00     0.00     3.53     0  00:00        0.00
+  C33                  JUNCTION     0.00     0.00     3.52     0  00:00        0.00
+  B23                  JUNCTION     0.00     0.00     3.52     0  00:00        0.00
+  C23                  JUNCTION     0.00     0.00     3.51     0  00:00        0.00
+  C64                  JUNCTION     0.00     0.00     3.50     0  00:00        0.00
+  B22                  JUNCTION     0.00     0.00     3.46     0  00:00        0.00
+  B20                  JUNCTION     0.00     0.00     3.46     0  00:00        0.00
+  B15                  JUNCTION     0.00     0.00     3.45     0  00:00        0.00
+  C10                  JUNCTION     0.00     0.00     3.44     0  00:00        0.00
+  D19                  JUNCTION     0.00     0.00     3.43     0  00:00        0.00
+  B4                   JUNCTION     0.00     0.00     3.42     0  00:00        0.00
+  C63                  JUNCTION     0.00     0.00     3.41     0  00:00        0.00
+  D16                  JUNCTION     0.00     0.00     3.39     0  00:00        0.00
+  C8                   JUNCTION     0.00     0.00     3.38     0  00:00        0.00
+  C53                  JUNCTION     0.00     0.00     3.38     0  00:00        0.00
+  B2                   JUNCTION     0.00     0.00     3.38     0  00:00        0.00
+  C47                  JUNCTION     0.00     0.00     3.37     0  00:00        0.00
+  B21                  JUNCTION     0.00     0.00     3.36     0  00:00        0.00
+  D22                  JUNCTION     0.00     0.00     3.36     0  00:00        0.00
+  C7                   JUNCTION     0.00     0.00     3.35     0  00:00        0.00
+  C28                  JUNCTION     0.00     0.00     3.34     0  00:00        0.00
+  A14                  JUNCTION     0.00     0.00     3.32     0  00:00        0.00
+  E2                   JUNCTION     0.00     0.00     3.30     0  00:00        0.00
+  C2                   JUNCTION     0.00     0.00     3.28     0  00:00        0.00
+  D10                  JUNCTION     0.00     0.00     3.28     0  00:00        0.00
+  B18                  JUNCTION     0.00     0.00     3.27     0  00:00        0.00
+  E11                  JUNCTION     0.00     0.00     3.26     0  00:00        0.00
+  E20                  JUNCTION     0.00     0.00     3.26     0  00:00        0.00
+  D21                  JUNCTION     0.00     0.00     3.26     0  00:00        0.00
+  C36                  JUNCTION     0.00     0.00     3.23     0  00:00        0.00
+  D20                  JUNCTION     0.00     0.00     3.23     0  00:00        0.00
+  D14                  JUNCTION     0.00     0.00     3.23     0  00:00        0.00
+  D6                   JUNCTION     0.00     0.00     3.22     0  00:00        0.00
+  D7                   JUNCTION     0.00     0.00     3.21     0  00:00        0.00
+  D12                  JUNCTION     0.00     0.00     3.21     0  00:00        0.00
+  E6                   JUNCTION     0.00     0.00     3.19     0  00:00        0.00
+  B24                  JUNCTION     0.00     0.00     3.18     0  00:00        0.00
+  D18                  JUNCTION     0.00     0.00     3.17     0  00:00        0.00
+  D13                  JUNCTION     0.00     0.00     3.15     0  00:00        0.00
+  B1_OL                JUNCTION     0.00     0.00     3.13     0  00:00        0.00
+  B19                  JUNCTION     0.00     0.00     3.13     0  00:00        0.00
+  E5                   JUNCTION     0.00     0.00     3.09     0  00:00        0.00
+  E4                   JUNCTION     0.00     0.00     3.08     0  00:00        0.00
+  E29                  JUNCTION     0.00     0.00     3.08     0  00:00        0.00
+  E3                   JUNCTION     0.00     0.00     3.02     0  00:00        0.00
+  D8                   JUNCTION     0.00     0.00     3.02     0  00:00        0.00
+  E10                  JUNCTION     0.00     0.00     3.02     0  00:00        0.00
+  D5                   JUNCTION     0.00     0.00     2.98     0  00:00        0.00
+  D9                   JUNCTION     0.00     0.00     2.96     0  00:00        0.00
+  D4                   JUNCTION     0.00     0.00     2.84     0  00:00        0.00
+  D11                  JUNCTION     0.00     0.00     2.83     0  00:00        0.00
+  F7                   JUNCTION     0.00     0.00     2.79     0  00:00        0.00
+  E7                   JUNCTION     0.00     0.00     2.75     0  00:00        0.00
+  D3                   JUNCTION     0.00     0.00     2.66     0  00:00        0.00
+  E1_OL                JUNCTION     0.00     0.00     2.63     0  00:00        0.00
+  D2                   JUNCTION     0.00     0.00     2.56     0  00:00        0.00
+  D1_OL                JUNCTION     0.00     0.00     2.54     0  00:00        0.00
+  C1_OL                OUTFALL      0.00     0.00     1.65     0  00:00        0.00
+  
+  
+  *******************
+  Node Inflow Summary
+  *******************
+  
+  -------------------------------------------------------------------------------------------------
+                                  Maximum  Maximum                  Lateral       Total        Flow
+                                  Lateral    Total  Time of Max      Inflow      Inflow     Balance
+                                   Inflow   Inflow   Occurrence      Volume      Volume       Error
+  Node                 Type           CMS      CMS  days hr:min    10^6 ltr    10^6 ltr     Percent
+  -------------------------------------------------------------------------------------------------
+  A5                   JUNCTION     6.000    6.000     0  01:01        24.1        24.1     165.452
+  A12A                 JUNCTION     0.000    1.676     0  00:56           0        3.66       0.229
+  C41                  JUNCTION     6.000    7.035     0  01:01        24.1        25.5     133.607
+  C16                  JUNCTION     0.000    1.379     0  00:31           0        2.16       6.847
+  B12                  JUNCTION     6.000    6.000     0  01:01        24.1        24.2     120.823
+  A9                   JUNCTION     0.000    1.541     0  02:55           0        2.23     -10.362
+  C5                   JUNCTION     0.000    1.439     0  03:30           0        1.28     -13.648
+  C39                  JUNCTION     6.000    6.155     0  01:01        24.1        25.3       1.938
+  A12                  JUNCTION     6.000    6.046     0  01:01        24.1        25.7       1.185
+  C46                  JUNCTION     0.000    1.894     0  00:14           0        7.12       0.280
+  B9                   JUNCTION     0.000    1.895     0  00:14           0         7.1       0.352
+  B13                  JUNCTION     0.000    1.867     0  00:15           0        5.85       3.447
+  B10                  JUNCTION     0.000    0.782     0  00:30           0        5.56       7.332
+  B7                   JUNCTION     0.000    0.613     0  00:38           0        5.18       5.337
+  C18                  JUNCTION     0.000    0.561     0  00:54           0        4.92      11.667
+  A8                   JUNCTION     0.000    0.411     0  01:30           0        4.41      11.360
+  C50                  JUNCTION     0.000    0.355     0  01:57           0        3.96       2.126
+  B8                   JUNCTION     0.000    0.343     0  01:57           0        3.87       1.560
+  C55                  JUNCTION     0.000    0.336     0  02:48           0        3.81       0.877
+  C29                  JUNCTION     0.000    0.335     0  02:47           0        3.78       0.824
+  C22                  JUNCTION     0.000    0.334     0  02:47           0        3.75      15.126
+  A6                   JUNCTION     0.000    0.287     0  02:53           0        3.26      17.470
+  C30                  JUNCTION     0.000    0.200     0  03:10           0        2.77       0.516
+  B17                  JUNCTION     0.000    0.198     0  03:11           0        2.76       2.027
+  C57                  JUNCTION     0.000    0.194     0  03:30           0         2.7       1.849
+  A10                  JUNCTION     0.000    0.192     0  03:33           0        2.65       1.449
+  A15                  JUNCTION     0.000    0.192     0  03:35           0        2.62       1.462
+  C38                  JUNCTION     0.000    0.191     0  03:36           0        2.58       0.392
+  C14                  JUNCTION     0.000    0.190     0  03:36           0        2.57       0.401
+  C42                  JUNCTION     0.000    0.190     0  03:36           0        2.56       1.334
+  A13                  JUNCTION     0.000    0.189     0  03:37           0        2.53       1.456
+  A3                   JUNCTION     0.000    0.188     0  03:36           0        2.49       0.314
+  C27                  JUNCTION     0.000    0.187     0  03:36           0        2.48       0.351
+  C48                  JUNCTION     0.000    0.187     0  03:36           0        2.47       1.007
+  C20                  JUNCTION     0.000    0.186     0  03:36           0        2.45       1.049
+  C21                  JUNCTION     0.000    0.185     0  03:35           0        2.42       0.446
+  C34                  JUNCTION     0.000    0.184     0  03:35           0        2.41       0.457
+  C52                  JUNCTION     0.000    0.183     0  03:35           0         2.4       0.195
+  B16                  JUNCTION     0.000    0.183     0  03:34           0         2.4       0.492
+  A7                   JUNCTION     0.000    0.182     0  03:34           0        2.38       2.923
+  C17                  JUNCTION     0.000    0.178     0  03:32           0        2.32      29.479
+  B11                  JUNCTION     0.000    0.127     0  05:07           0        1.79      35.052
+  C6                   JUNCTION     0.000    0.103     0  06:27           0        1.32       5.586
+  C62                  JUNCTION     0.000    0.101     0  06:33           0        1.25       7.107
+  C24                  JUNCTION     0.000    0.099     0  06:36           0        1.17       8.252
+  C4                   JUNCTION     0.000    0.097     0  06:38           0        1.08       8.795
+  A2                   JUNCTION     0.000    0.094     0  06:37           0       0.995       1.026
+  C43                  JUNCTION     0.000    0.094     0  06:37           0       0.984       2.974
+  C15                  JUNCTION     0.000    0.092     0  06:36           0       0.956       3.212
+  C12                  JUNCTION     0.000    0.091     0  06:35           0       0.926       8.845
+  C51                  JUNCTION     0.000    0.087     0  06:33           0       0.851      13.755
+  A11                  JUNCTION     0.000    0.081     0  08:20           0       0.748       4.090
+  C3                   JUNCTION     0.000    0.080     0  08:20           0       0.719      98.897
+  B6                   JUNCTION     0.000    0.074     0  08:20           0       0.361     161.460
+  C19                  JUNCTION     0.000    0.047     0  08:20           0       0.138       5.886
+  C31                  JUNCTION     0.000    0.046     0  08:20           0       0.131      60.191
+  C58                  JUNCTION     0.000    0.039     0  08:20           0      0.0815      80.060
+  E28                  JUNCTION     0.000    0.028     0  08:20           0      0.0453     977.012
+  C59                  JUNCTION     0.000    0.006     0  08:20           0      0.0042    4049.546
+  C32                  JUNCTION     0.000    0.000     0  08:20           0    0.000101      98.649 ltr
+  C35                  JUNCTION     0.000    0.000     0  08:20           0    2.61e-06       2.571 ltr
+  C9                   JUNCTION     0.000    0.000     0  08:20           0    3.67e-08       0.037 ltr
+  C11                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C37                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E30                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C56                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B14                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C60                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D15                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  A1_OL                JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C54                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D17                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C61                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C13                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B5                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C25                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  A4                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C49                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C33                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B23                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C23                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C64                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B22                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B20                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B15                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C10                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D19                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B4                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C63                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D16                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C8                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C53                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B2                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C47                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B21                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D22                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C7                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C28                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  A14                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E2                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C2                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D10                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B18                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E11                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E20                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D21                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C36                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D20                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D14                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D6                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D7                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D12                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E6                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B24                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D18                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D13                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B1_OL                JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  B19                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E5                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E4                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E29                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E3                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D8                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E10                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D5                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D9                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D4                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D11                  JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  F7                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E7                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D3                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  E1_OL                JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D2                   JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  D1_OL                JUNCTION     0.000    0.000     0  00:00           0           0       0.000 ltr
+  C1_OL                OUTFALL      0.000    0.000     0  00:00           0           0       0.000 ltr
+  
+  
+  **********************
+  Node Surcharge Summary
+  **********************
+  
+  Surcharging occurs when water rises above the top of the highest conduit.
+  ---------------------------------------------------------------------
+                                               Max. Height   Min. Depth
+                                   Hours       Above Crown    Below Rim
+  Node                 Type      Surcharged         Meters       Meters
+  ---------------------------------------------------------------------
+  A5                   JUNCTION        3.32          1.000        0.000
+  A12A                 JUNCTION        4.32          1.000        0.000
+  C41                  JUNCTION        7.57          1.000        0.000
+  C16                  JUNCTION        7.09          1.000        0.000
+  B12                  JUNCTION        6.82          1.000        0.000
+  A9                   JUNCTION        5.82          1.000        0.000
+  C5                   JUNCTION        4.50          1.000        0.000
+  C39                  JUNCTION        2.77          1.000        0.000
+  A12                  JUNCTION        2.74          1.000        0.000
+  C46                  JUNCTION        2.76          1.000        0.000
+  B9                   JUNCTION        2.79          1.000        0.000
+  B13                  JUNCTION        2.81          1.000        0.000
+  B10                  JUNCTION        2.47          0.777        0.223
+  B7                   JUNCTION        1.98          0.638        0.362
+  C18                  JUNCTION        1.86          0.544        0.456
+  A8                   JUNCTION        0.19          0.052        0.948
+  C50                  JUNCTION        0.11          0.022        0.978
+  
+  
+  *********************
+  Node Flooding Summary
+  *********************
+  
+  Flooding refers to all water that overflows a node, whether it ponds or not.
+  --------------------------------------------------------------------------
+                                                             Total   Maximum
+                                 Maximum   Time of Max       Flood    Ponded
+                        Hours       Rate    Occurrence      Volume     Depth
+  Node                 Flooded       CMS   days hr:min    10^6 ltr    Meters
+  --------------------------------------------------------------------------
+  A5                      0.52     4.626      0  01:02       5.451     0.000
+  A12A                    0.83     1.504      0  00:57       2.305     0.000
+  C41                     0.75     6.576      0  01:07       8.702     0.000
+  C16                     0.67     0.920      0  01:16       1.936     0.000
+  B12                     1.27     4.852      0  00:55       8.744     0.000
+  A9                      1.40     0.485      0  01:50       1.204     0.000
+  C5                      0.60     0.194      0  02:20       0.362     0.000
+  C39                     2.63     5.990      0  01:02      23.328     0.000
+  A12                     2.15     5.387      0  01:02      18.342     0.000
+  C46                     0.01     0.084      0  00:15       0.000     0.000
+  B9                      2.23     0.604      0  00:14       1.231     0.000
+  B13                     0.06     1.273      0  00:17       0.062     0.000
+  
+  
+  ***********************
+  Outfall Loading Summary
+  ***********************
+  
+  -----------------------------------------------------------
+                         Flow       Avg       Max       Total
+                         Freq      Flow      Flow      Volume
+  Outfall Node           Pcnt       CMS       CMS    10^6 ltr
+  -----------------------------------------------------------
+  C1_OL                  0.00     0.000     0.000       0.000
+  -----------------------------------------------------------
+  System                 0.00     0.000     0.000       0.000
+  
+  
+  ********************
+  Link Flow Summary
+  ********************
+  
+  -----------------------------------------------------------------------------
+                                 Maximum  Time of Max   Maximum    Max/    Max/
+                                  |Flow|   Occurrence   |Veloc|    Full    Full
+  Link                 Type          CMS  days hr:min     m/sec    Flow   Depth
+  -----------------------------------------------------------------------------
+  Gate_1               ORIFICE     1.676     0  00:56                      1.00
+  Gate_2               ORIFICE     1.035     0  01:01                      1.00
+  Gate_3               ORIFICE     1.379     0  00:31                      1.00
+  Gate_4               ORIFICE     1.060     0  07:10                      1.00
+  Gate_5               ORIFICE     1.541     0  02:55                      1.00
+  Gate_6               ORIFICE     1.439     0  03:30                      1.00
+  Gate_7               ORIFICE     1.655     0  00:05                      1.00
+  Pipe_8               CONDUIT     0.715     0  00:14      0.92   15.82    1.00
+  Pipe_9               CONDUIT     1.894     0  00:14      2.41    3.41    1.00
+  Pipe_10              CONDUIT     1.895     0  00:14      2.42    2.78    1.00
+  Pipe_11              CONDUIT     1.867     0  00:15      2.74    5.51    1.00
+  Pipe_12              CONDUIT     0.782     0  00:30      1.21   12.77    1.00
+  Pipe_13              CONDUIT     0.613     0  00:38      0.97    4.62    1.00
+  Pipe_14              CONDUIT     0.561     0  00:54      1.01    3.80    1.00
+  Pipe_15              CONDUIT     0.411     0  01:30      0.72    8.99    1.00
+  Pipe_16              CONDUIT     0.355     0  01:57      0.59    2.37    1.00
+  Pipe_17              CONDUIT     0.343     0  01:57      0.65    3.50    0.99
+  Pipe_18              CONDUIT     0.336     0  02:48      0.71    0.95    0.99
+  Pipe_19              CONDUIT     0.335     0  02:47      0.82    1.48    0.99
+  Pipe_20              CONDUIT     0.334     0  02:47      1.49    2.37    0.98
+  Pipe_21              CONDUIT     0.287     0  02:53      0.47    7.96    0.75
+  Pipe_22              CONDUIT     0.200     0  03:10      0.44    0.68    0.63
+  Pipe_23              CONDUIT     0.198     0  03:11      0.44    1.28    0.63
+  Pipe_24              CONDUIT     0.194     0  03:30      0.44    2.91    0.62
+  Pipe_25              CONDUIT     0.192     0  03:33      0.44    1.31    0.61
+  Pipe_26              CONDUIT     0.192     0  03:35      0.45    6.62    0.60
+  Pipe_27              CONDUIT     0.191     0  03:36      0.46    0.39    0.60
+  Pipe_28              CONDUIT     0.190     0  03:36      0.46    1.72    0.60
+  Pipe_29              CONDUIT     0.190     0  03:36      0.56    0.68    0.60
+  Pipe_30              CONDUIT     0.189     0  03:37      0.47    1.10    0.60
+  Pipe_31              CONDUIT     0.188     0  03:36      0.48    0.95    0.60
+  Pipe_32              CONDUIT     0.187     0  03:36      0.47    0.41    0.60
+  Pipe_33              CONDUIT     0.187     0  03:36      0.52    0.47    0.61
+  Pipe_34              CONDUIT     0.186     0  03:36      0.48    1.61    0.61
+  Pipe_35              CONDUIT     0.185     0  03:35      0.50    0.94    0.61
+  Pipe_36              CONDUIT     0.184     0  03:35      0.54    0.85    0.61
+  Pipe_37              CONDUIT     0.183     0  03:35      0.59    0.36    0.61
+  Pipe_38              CONDUIT     0.183     0  03:34      0.58    0.16    0.63
+  Pipe_39              CONDUIT     0.182     0  03:34      0.89    0.54    0.65
+  Pipe_40              CONDUIT     0.178     0  03:32      0.65    1.50    0.65
+  Pipe_41              CONDUIT     0.127     0  05:07      0.34    2.23    0.57
+  Pipe_42              CONDUIT     0.103     0  06:27      0.31    0.22    0.53
+  Pipe_43              CONDUIT     0.101     0  06:33      0.30    1.39    0.53
+  Pipe_44              CONDUIT     0.099     0  06:36      0.33    1.26    0.52
+  Pipe_45              CONDUIT     0.097     0  06:38      0.32    0.92    0.51
+  Pipe_46              CONDUIT     0.094     0  06:37      0.33    0.65    0.50
+  Pipe_47              CONDUIT     0.094     0  06:37      0.32    0.14    0.50
+  Pipe_48              CONDUIT     0.092     0  06:36      0.34    0.67    0.51
+  Pipe_49              CONDUIT     0.091     0  06:35      0.55    0.44    0.51
+  Pipe_50              CONDUIT     0.087     0  06:33      0.34    1.07    0.50
+  Pipe_51              CONDUIT     0.081     0  08:20      0.47    0.35    0.49
+  Pipe_52              CONDUIT     0.080     0  08:20      1.01    0.22    0.50
+  Pipe_53              CONDUIT     0.074     0  08:20      0.26    0.96    0.39
+  Pipe_54              CONDUIT     0.047     0  08:20      0.24    0.09    0.29
+  Pipe_55              CONDUIT     0.046     0  08:20      0.24    0.58    0.29
+  Pipe_56              CONDUIT     0.039     0  08:20      0.26    0.32    0.25
+  Pipe_57              CONDUIT     0.028     0  08:20      0.32    0.28    0.19
+  Pipe_58              CONDUIT     0.006     0  08:20      0.14    0.13    0.10
+  Pipe_59              CONDUIT     0.000     0  08:20      0.09    0.00    0.02
+  Pipe_60              CONDUIT     0.000     0  08:20      0.01    0.00    0.00
+  Pipe_61              CONDUIT     0.000     0  08:20      0.00    0.00    0.00
+  Pipe_62              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_63              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_64              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_65              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_66              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_67              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_68              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_69              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_70              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_71              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_72              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_73              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_74              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_75              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_76              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_77              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_78              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_79              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_80              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_81              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_82              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_83              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_84              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_85              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_86              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_87              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_88              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_89              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_90              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_91              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_92              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_93              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_94              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_95              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_96              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_97              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_98              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_99              CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_100             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_101             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_102             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_103             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_104             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_105             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_106             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_107             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_108             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_109             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_110             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_111             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_112             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_113             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_114             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_115             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_116             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_117             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_118             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_119             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_120             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_121             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_122             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_123             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_124             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_125             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_126             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_127             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_128             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_129             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_130             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_131             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_132             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_133             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  Pipe_134             CONDUIT     0.000     0  00:00      0.00    0.00    0.00
+  
+  
+  ***************************
+  Flow Classification Summary
+  ***************************
+  
+  -------------------------------------------------------------------------------------
+                      Adjusted    ---------- Fraction of Time in Flow Class ---------- 
+                       /Actual         Up    Down  Sub   Sup   Up    Down  Norm  Inlet 
+  Conduit               Length    Dry  Dry   Dry   Crit  Crit  Crit  Crit  Ltd   Ctrl  
+  -------------------------------------------------------------------------------------
+  Pipe_8                  1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_9                  1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_10                 1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_11                 1.00   0.00  0.00  0.00  0.99  0.01  0.00  0.00  0.00  0.00
+  Pipe_12                 1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_13                 1.00   0.00  0.00  0.00  1.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_14                 1.00   0.02  0.00  0.00  0.98  0.00  0.00  0.00  0.00  0.00
+  Pipe_15                 1.00   0.03  0.00  0.00  0.97  0.00  0.00  0.00  0.00  0.00
+  Pipe_16                 1.00   0.06  0.00  0.00  0.94  0.00  0.00  0.00  0.00  0.00
+  Pipe_17                 1.00   0.08  0.00  0.00  0.92  0.00  0.00  0.00  0.00  0.00
+  Pipe_18                 1.00   0.10  0.00  0.00  0.90  0.00  0.00  0.00  0.00  0.00
+  Pipe_19                 1.00   0.11  0.00  0.00  0.89  0.00  0.00  0.00  0.00  0.00
+  Pipe_20                 1.00   0.12  0.00  0.00  0.86  0.02  0.00  0.00  0.00  0.00
+  Pipe_21                 1.00   0.14  0.00  0.00  0.86  0.00  0.00  0.00  0.00  0.00
+  Pipe_22                 1.00   0.17  0.00  0.00  0.83  0.00  0.00  0.00  0.00  0.00
+  Pipe_23                 1.00   0.18  0.00  0.00  0.82  0.00  0.00  0.00  0.00  0.00
+  Pipe_24                 1.00   0.19  0.00  0.00  0.81  0.00  0.00  0.00  0.00  0.00
+  Pipe_25                 1.00   0.21  0.00  0.00  0.79  0.00  0.00  0.00  0.00  0.00
+  Pipe_26                 1.00   0.22  0.00  0.00  0.78  0.00  0.00  0.00  0.00  0.00
+  Pipe_27                 1.00   0.25  0.00  0.00  0.75  0.00  0.00  0.00  0.00  0.00
+  Pipe_28                 1.00   0.26  0.00  0.00  0.74  0.00  0.00  0.00  0.00  0.00
+  Pipe_29                 1.00   0.27  0.00  0.00  0.72  0.00  0.00  0.00  0.00  0.00
+  Pipe_30                 1.00   0.28  0.00  0.00  0.72  0.00  0.00  0.00  0.00  0.00
+  Pipe_31                 1.00   0.29  0.00  0.00  0.71  0.00  0.00  0.00  0.00  0.00
+  Pipe_32                 1.00   0.30  0.00  0.00  0.70  0.00  0.00  0.00  0.00  0.00
+  Pipe_33                 1.00   0.30  0.00  0.00  0.70  0.00  0.00  0.00  0.00  0.00
+  Pipe_34                 1.00   0.31  0.00  0.00  0.69  0.00  0.00  0.00  0.00  0.00
+  Pipe_35                 1.00   0.31  0.00  0.00  0.69  0.00  0.00  0.00  0.01  0.00
+  Pipe_36                 1.00   0.32  0.00  0.00  0.68  0.00  0.00  0.00  0.00  0.00
+  Pipe_37                 1.00   0.32  0.00  0.00  0.68  0.00  0.00  0.00  0.00  0.00
+  Pipe_38                 1.00   0.33  0.00  0.00  0.67  0.00  0.00  0.00  0.00  0.00
+  Pipe_39                 1.00   0.33  0.00  0.00  0.67  0.00  0.00  0.00  0.00  0.00
+  Pipe_40                 1.00   0.33  0.00  0.00  0.67  0.00  0.00  0.00  0.00  0.00
+  Pipe_41                 1.00   0.33  0.00  0.00  0.67  0.00  0.00  0.00  0.00  0.00
+  Pipe_42                 1.00   0.35  0.00  0.00  0.65  0.00  0.00  0.00  0.00  0.00
+  Pipe_43                 1.00   0.37  0.00  0.00  0.63  0.00  0.00  0.00  0.00  0.00
+  Pipe_44                 1.00   0.38  0.00  0.00  0.62  0.00  0.00  0.00  0.00  0.00
+  Pipe_45                 1.00   0.41  0.00  0.00  0.59  0.00  0.00  0.00  0.00  0.00
+  Pipe_46                 1.00   0.45  0.00  0.00  0.55  0.00  0.00  0.00  0.00  0.00
+  Pipe_47                 1.00   0.48  0.00  0.00  0.52  0.00  0.00  0.00  0.02  0.00
+  Pipe_48                 1.00   0.50  0.00  0.00  0.50  0.00  0.00  0.00  0.00  0.00
+  Pipe_49                 1.00   0.52  0.00  0.00  0.48  0.00  0.00  0.00  0.00  0.00
+  Pipe_50                 1.00   0.54  0.00  0.00  0.46  0.00  0.00  0.00  0.00  0.00
+  Pipe_51                 1.00   0.56  0.00  0.00  0.44  0.00  0.00  0.00  0.00  0.00
+  Pipe_52                 1.00   0.58  0.00  0.00  0.37  0.05  0.00  0.00  0.00  0.00
+  Pipe_53                 1.00   0.59  0.00  0.00  0.41  0.00  0.00  0.00  0.00  0.00
+  Pipe_54                 1.00   0.62  0.00  0.00  0.38  0.00  0.00  0.00  0.04  0.00
+  Pipe_55                 1.00   0.66  0.00  0.00  0.34  0.00  0.00  0.00  0.00  0.00
+  Pipe_56                 1.00   0.68  0.00  0.00  0.32  0.00  0.00  0.00  0.00  0.00
+  Pipe_57                 1.00   0.70  0.00  0.00  0.30  0.00  0.00  0.00  0.00  0.00
+  Pipe_58                 1.00   0.73  0.00  0.00  0.27  0.00  0.00  0.00  0.00  0.00
+  Pipe_59                 1.00   0.79  0.00  0.00  0.21  0.00  0.00  0.00  0.04  0.00
+  Pipe_60                 1.00   0.85  0.00  0.00  0.15  0.00  0.00  0.00  0.00  0.00
+  Pipe_61                 1.00   0.89  0.00  0.00  0.11  0.00  0.00  0.00  0.00  0.00
+  Pipe_62                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_63                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_64                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_65                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_66                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_67                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_68                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_69                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_70                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_71                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_72                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_73                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_74                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_75                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_76                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_77                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_78                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_79                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_80                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_81                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_82                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_83                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_84                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_85                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_86                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_87                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_88                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_89                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_90                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_91                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_92                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_93                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_94                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_95                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_96                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_97                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_98                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_99                 1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_100                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_101                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_102                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_103                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_104                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_105                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_106                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_107                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_108                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_109                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_110                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_111                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_112                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_113                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_114                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_115                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_116                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_117                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_118                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_119                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_120                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_121                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_122                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_123                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_124                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_125                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_126                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_127                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_128                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_129                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_130                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_131                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_132                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_133                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  Pipe_134                1.00   1.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00
+  
+  
+  *************************
+  Conduit Surcharge Summary
+  *************************
+  
+  ----------------------------------------------------------------------------
+                                                           Hours        Hours 
+                         --------- Hours Full --------   Above Full   Capacity
+  Conduit                Both Ends  Upstream  Dnstream   Normal Flow   Limited
+  ----------------------------------------------------------------------------
+  Pipe_8                      2.73      2.77      2.74      3.95         0.49
+  Pipe_9                      2.74      2.74      2.76      2.31         2.24
+  Pipe_10                     2.75      2.76      2.79      0.31         0.27
+  Pipe_11                     2.75      2.79      2.81      2.66         2.47
+  Pipe_12                     2.47      2.81      2.47      4.63         2.47
+  Pipe_13                     1.96      2.47      1.98      2.59         1.84
+  Pipe_14                     1.84      1.98      1.86      2.38         1.72
+  Pipe_15                     0.19      1.86      0.19      7.45         0.19
+  Pipe_16                     0.11      0.19      0.11      2.49         0.11
+  Pipe_17                     0.01      0.11      0.01      3.97         0.01
+  Pipe_19                     0.01      0.01      0.01      1.41         0.01
+  Pipe_20                     0.01      0.01      0.01      2.73         0.01
+  Pipe_21                     0.01      0.01      0.01      6.49         0.01
+  Pipe_23                     0.01      0.01      0.01      1.52         0.01
+  Pipe_24                     0.01      0.01      0.01      5.80         0.01
+  Pipe_25                     0.01      0.01      0.01      1.55         0.01
+  Pipe_26                     0.01      0.01      0.01      5.83         0.01
+  Pipe_28                     0.01      0.01      0.01      3.15         0.01
+  Pipe_30                     0.01      0.01      0.01      0.73         0.01
+  Pipe_34                     0.01      0.01      0.01      2.79         0.01
+  Pipe_40                     0.01      0.01      0.01      2.56         0.01
+  Pipe_41                     0.01      0.01      0.01      4.46         0.01
+  Pipe_43                     0.01      0.01      0.01      3.29         0.01
+  Pipe_44                     0.01      0.01      0.01      2.98         0.01
+  Pipe_50                     0.01      0.01      0.01      2.16         0.01
+  
+
+  Analysis begun on:  Tue Sep 29 21:25:34 2026
+  Analysis ended on:  Tue Sep 29 21:25:35 2026
+  Total elapsed time: 00:00:01
