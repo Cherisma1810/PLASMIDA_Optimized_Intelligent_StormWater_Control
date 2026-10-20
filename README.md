@@ -30,6 +30,9 @@ Our simulation proves that this framework successfully manages the Velachery War
 *   `models/`: Holds the trained weights for both the Koopman Emulator (`koopman_emulator.pth`) and the final DRQN agent (`trained_drqn.pth`).
 *   `dashboard/`: The live Pygame visualization scripts where you can watch the AI control the water levels in real-time.
 
+## Contributors
+- [Adhithya2327](https://github.com/Adhithya2327)
+
 ## 💻 Getting Started
 To watch the AI in action and run the Pygame dashboard:
 1. Clone this repository.
